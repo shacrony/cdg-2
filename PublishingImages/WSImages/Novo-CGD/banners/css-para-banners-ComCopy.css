@@ -1,0 +1,157 @@
+
+.mobile {display:none;}
+.desktop {display:block;}
+@media (max-width: 1004px) {
+
+.mobile {display:block;}
+
+.desktop {display:none;}
+
+}
+
+
+/* CENTER BLOCK */
+.center-block {
+  position: relative;
+}
+.center-block .image {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.center-block.blue-pale {
+  background: #bfcadc;
+}
+.center-block.blue-pale .color-block {
+  background: #4c6c9d;
+}
+.center-block .block {
+  height: 527px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.center-block .block .text-center-block {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  width: 750px;
+  padding: 40px 0;
+}
+.center-block .block .text-center-block .title-center {
+  color: #fff;
+  font-size: 4.5em;
+  padding-top: 175px;
+}
+.center-block .block .text-center-block .subtitle-center {
+  color: #fff;
+  font-size: 1.8em;
+  padding-top: 30px;
+  font-weight: 400;
+}
+.center-block .block .text-center-block .image {
+  width: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+.center-block .color-block {
+  width: 100%;
+  position: relative;
+  float: left;
+  padding-bottom: 70px;
+}
+.center-block .color-block .text-color-block {
+  width: 750px;
+  text-align: center;
+  margin: 0 auto;
+}
+.center-block .color-block .text-color-block .image {
+  padding-top: 65px;
+}
+.center-block .color-block .text-color-block .title-color-block {
+  color: #fff;
+  font-size: 3em;
+  padding-top: 30px;
+}
+.center-block .color-block .text-color-block .subtitle-color-block {
+  color: #fff;
+  font-size: 1.8em;
+  padding-top: 30px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+
+
+@media (max-width: 1260px) {
+  .center-block .block .text-center-block .title-center {
+    font-size: 3.8em;
+    padding-top: 140px;
+  }
+  .center-block .text-center-block .image {
+    width: 1280px;
+  }
+
+
+}
+@media (max-width: 1004px) {
+  .center-block.blue-pale .block {
+    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .center-block .block .text-center-block .title-center {
+    font-size: 3.8em;
+    padding-top: 30px;
+    color: #4c6c9d;
+  }
+  .center-block .block .text-center-block .subtitle-center {
+    color: #4c6c9d;
+  }
+
+
+}
+@media only screen and (max-width: 767px) {
+  .center-block {
+    min-width: 80%;
+  }
+  .center-block .image {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+  }
+  .center-block .block .text-center-block {
+    width: 90%;
+  }
+  .center-block .block .text-center-block .title-center {
+    font-size: 2.8em;
+  }
+  .center-block .block .text-center-block .subtitle-center {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .center-block .color-block {
+    min-width: 80%;
+    height: auto;
+  }
+  .center-block .color-block .image img {
+    width: auto;
+    min-height: 50px;
+  }
+  .center-block .color-block .text-color-block {
+    width: 90%;
+  }
+  .center-block .color-block .text-color-block .image {
+    padding-top: 35px;
+    margin: 0 auto;
+    left: 0;
+  }
+  .center-block .color-block .text-color-block .title-color-block {
+    font-size: 2.8em;
+  }
+
+
+}
+
+/*# sourceMappingURL=campanhas.css.map */

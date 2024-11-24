@@ -1,0 +1,3392 @@
+﻿
+<!DOCTYPE html>
+<!-- CGDV2 -->
+<html class="no-js ms-isBot" dir="ltr" lang="pt-PT">
+ <head id="ctl00_Head1">
+  <meta charset="utf-8"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" name="viewport"/>
+  <meta content="bzJQSPKIz3Ap0uft3cdXNV0lusCPODiQqAXeCCXSwUY" name="google-site-verification"/>
+  <link href="Particulares_v2.aspx.html" rel="index" title="Página inicial"/>
+  <link href="/Pages/Mapa-Site.aspx" rel="sitemap" title="Mapa do Site"/>
+  <link href="/Pesquisa/Pages/Resultados-PesquisaV2.aspx" rel="search" title="Pesquisa"/>
+  <!--[If IE]><link rel="icon" href="/PublishingImages/WSImages/Novo-CGD/favicon.ico?v=2" type="image/x-icon" /><link rel="shortcut icon" href="/PublishingImages/WSImages/Novo-CGD/favicon.ico?v=2" /><![endif]-->
+  <link href="../../PublishingImages/WSImages/Novo-CGD/favicon.ico.png" rel="shortcut icon"/>
+  <link href="../../PublishingImages/WSImages/Novo-CGD/favicon.ico.png" id="favicon" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+  <meta content="/_layouts/15/images/SharePointMetroAppTile.png" name="msapplication-TileImage"/>
+  <meta content="#0072C6" name="msapplication-TileColor"/>
+  <title>
+   Protocolos Caixa
+  </title>
+  <script data-dtconfig="rid=RID_-289489758|rpid=1946266344|domain=cgd.pt|reportUrl=/rb_bf03768tsx|app=b376b8715e86187f|cuc=9p0vz9fb|mel=100000|srdinitrec=1|featureHash=ICA27NVfijoqrux|dpvc=1|lastModification=1731516913273|srsr=2000|tp=500,50,0,1|rdnt=1|uxrgce=1|agentUri=/ruxitagentjs_ICA27NVfijoqrux_10263230921131557.js" src="../../ruxitagentjs_ICA27NVfijoqrux_10263230921131557.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   var _spBodyOnLoadFunctionNames = window._spBodyOnLoadFunctionNames || [];
+  </script>
+  <!-- Início do aviso de consentimento de cookies OneTrustcgd.pt -->
+  <script charset="UTF-8" data-document-language="true" data-domain-script="93d6fc72-1c86-49f0-98c9-c32a147cb8cf" src="../../scripttemplates/otSDKStub.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   function OptanonWrapper() { 
+                                        // Get initial OnetrustActiveGroups ids
+                                        if (typeof OptanonWrapperCount == "undefined") {
+                                            otGetInitialGrps();
+                                        }
+
+                                        //Delete cookies
+                                        otDeleteCookie(otIniGrps);                                            
+
+                                        // Assign OnetrustActiveGroups to custom variable
+                                        function otGetInitialGrps() {
+                                            OptanonWrapperCount = '';
+                                            otIniGrps = OnetrustActiveGroups;
+                                        }
+
+                                        function otDeleteCookie(iniOptGrpId) {
+                                            var otDomainGrps = JSON.parse(JSON.stringify(Optanon.GetDomainData().Groups));
+                                            var otDeletedGrpIds = otGetInactiveId(iniOptGrpId, OnetrustActiveGroups);
+                                            if (otDeletedGrpIds.length != 0 && otDomainGrps.length != 0) {
+                                                for (var i = 0; i < otDomainGrps.length; i++) {
+                                                    //Check if CustomGroupId matches
+                                                    if (otDomainGrps[i]['CustomGroupId'] != '' && otDeletedGrpIds.includes(otDomainGrps[i]['CustomGroupId'])) {
+                                                        for (var j = 0; j < otDomainGrps[i]['Cookies'].length; j++) {
+                                                            //Delete cookie
+                                                            eraseCookie(otDomainGrps[i]['Cookies'][j]['Name'], otDomainGrps[i]['Cookies'][j]['Host']);
+                                                        }
+                                                    }
+
+                                                    //Check if Hostid matches
+                                                    if (otDomainGrps[i]['Hosts'].length != 0) {
+                                                        for (var j = 0; j < otDomainGrps[i]['Hosts'].length; j++) {
+                                                            //Check if HostId presents in the deleted list and cookie array is not blank
+                                                            if (otDeletedGrpIds.includes(otDomainGrps[i]['Hosts'][j]['HostId']) && otDomainGrps[i]['Hosts'][j]['Cookies'].length != 0) {
+                                                                for (var k = 0; k < otDomainGrps[i]['Hosts'][j]['Cookies'].length; k++) {
+                                                                    //Delete cookie
+                                                                    eraseCookie(otDomainGrps[i]['Hosts'][j]['Cookies'][k]['Name'], otDomainGrps[i]['Hosts'][j]['Cookies'][k]['Host']);
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                otGetInitialGrps(); //Reassign new group ids
+                                                location.reload();
+                                            }
+                                            else {                                                
+                                                otGetInitialGrps(); //Reassign new group ids
+                                            }
+                                        }
+
+                                        //Get inactive ids
+                                        function otGetInactiveId(customIniId, otActiveGrp) {
+                                            //Initial OnetrustActiveGroups
+                                            customIniId = customIniId.split(',');
+                                            customIniId = customIniId.filter(Boolean);
+
+                                            //After action OnetrustActiveGroups
+                                            otActiveGrp = otActiveGrp.split(',');
+                                            otActiveGrp = otActiveGrp.filter(Boolean);
+
+                                            var result = [];
+
+                                            for (var i = 0; i < customIniId.length; i++) {
+                                                if (otActiveGrp.indexOf(customIniId[i]) <= -1) {
+                                                    result.push(customIniId[i]);
+                                                }
+                                            }
+
+                                            return result;
+                                        }
+
+                                        //Delete cookie
+                                        function eraseCookie(name, domainName) {
+                                            //Delete root path cookies
+                                            if (domainName == null) {                                                
+                                                domainName = window.location.hostname;
+                                            }
+
+                                            document.cookie = name + '=; Max-Age=-99999999; Path=/;Domain=' + domainName;
+                                            document.cookie = name + '=; Max-Age=-99999999; Path=/;';
+
+                                            //Delete LSO incase LSO being used, cna be commented out.
+                                            localStorage.removeItem(name);
+
+                                            //Check for the current path of the page
+                                            pathArray = window.location.pathname.split('/');
+                                            //Loop through path hierarchy and delete potential cookies at each path.
+                                            for (var i = 0; i < pathArray.length; i++) {
+                                                if (pathArray[i]) {
+                                                    //Build the path string from the Path Array e.g /site/login
+                                                    var currentPath = pathArray.slice(0, i + 1).join('/');
+                                                    document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + ';Domain=' + domainName;
+                                                    document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + ';';
+                                                    //Maybe path has a trailing slash!
+                                                    document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + '/;Domain=' + domainName;
+                                                    document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + '/;';
+                                                }
+                                            }
+
+                                            if(name.includes('*')) {
+                                                var regex = name.replace('*', ".*?=");
+                                                var regexpStr = "/" + regex + "/g";
+                                                var regexp = stringToRegex(regexpStr);
+                                                var matches = document.cookie.match(regexp);
+
+                                                if(matches != null) {
+                                                    matches.forEach(function (match) {
+                                                        eraseCookie(match.replace("=", ''));
+                                                    });
+                                                }
+                                            }
+                                        }
+
+                                        function stringToRegex(str) {
+                                            // Main regex
+                                            const main = str.match(/\/(.+)\/.*/)[1]
+
+                                            // Regex options
+                                            const options = str.match(/\/.+\/(.*)/)[1]
+
+                                            // Compiled regex
+                                            return new RegExp(main, options)
+                                        }
+                                    }
+  </script>
+  <!-- Final do aviso de consentimento de cookies OneTrustcgd.pt -->
+  <style id="icomoon-fontface">
+   @font-face {
+      font-family: "icomoon";
+      src:
+        url("../../PublishingImages/WSImages/Novo-CGD/fonts-icomoon/icomoon.eot") format("embedded-opentype"),
+        url("../../PublishingImages/WSImages/Novo-CGD/fonts-icomoon/icomoon.woff") format("woff"),
+        url("../../PublishingImages/WSImages/Novo-CGD/fonts-icomoon/icomoon.ttf") format("truetype"), 
+        url("../../PublishingImages/WSImages/Novo-CGD/fonts-icomoon/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+    }
+  </style>
+  <link href="../../PublishingImages/WSImages/Novo-CGD/fonts-icomoon/icomoon-styles.css?v=2708241424" id="icomoon-styles" rel="stylesheet"/>
+  <link href="../../_layouts/15/1033/STYLES/CaixatecCGDLayoutsV2/layout/base.m.c.min.css?v=20240421" id="cssbase" rel="stylesheet"/>
+  <!-- -->
+  <link href="../../_layouts/15/1033/STYLES/CaixatecCGDLayoutsV2/layout/IE8.tomin.min.css?v=09122016" rel="stylesheet" type="text/css"/>
+  <link href="../../PublishingImages/WSImages/Novo-CGD/banners/css-para-banners-ComCopy.css?v=0810211746" rel="stylesheet" type="text/css"/>
+  <link href="../PublishingImages/Protocolos-clientes-Caixa/protocolo.css?v=2811231808" rel="stylesheet" type="text/css"/>
+  <link href="../Cartoes/Cartoes-de-Credito/PublishingImages/FAQs/mod_perguntasfrequentes.css?v=1305241531" rel="stylesheet" type="text/css"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="Há um Banco que ajuda a dar certezas ao futuro: A Caixa. Com Certeza." name="twitter:description" property="og:description"/>
+  <meta content="Protocolos Caixa" name="twitter:title" property="og:title"/>
+  <meta content="Banco, Simuladores, Homebanking, Bolsa, Investir,  Fundos, Créditos, Financiamento, Seguros, Agências, Refinanciamento, Cartões, Poupança, Empreendedorismo, Oferta Sectorial, Plataforma Internacional, Internacionalização, Exportações, PME, Factoring, Negociação Cambial" name="KEYWORDS"/>
+  <link href="Protocolos-Clientes-Caixa.aspx.html" rel="canonical"/>
+  <link href="../../PublishingImages/WSImages/Novo-CGD/cgdpt_o.css?v=2210241231" rel="stylesheet" type="text/css"/>
+  <script src="../../_layouts/15/CaixatecCGDLayoutsV2/js/libs/modernizr-3.5.0.min.js">
+  </script>
+  <script type="text/javascript">
+   var _paq = window._paq || [];
+  </script>
+  <script class="optanon-category-C0002" type="text/plain">
+   /* Matomo */                            
+                                /* tracker methods like 'setCustomDimension' should be called before 'trackPageView' */
+                                _paq.push(['setCustomUrl', location.href.toLowerCase()]);
+                                _paq.push(['trackPageView']);
+                                _paq.push(['enableLinkTracking']);
+                                _paq.push(['trackAllContentImpressions']);
+                                (function() {
+                                    var u='https://app.cgd.pt/pwa/';
+                                    _paq.push(['setTrackerUrl', u+'matomo.php']);
+                                    _paq.push(['setSiteId', '23']);
+                                    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                                    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+                                })();
+                                /* End Matomo */
+  </script>
+  <script class="optanon-category-C0002" type="text/plain">
+   /* Matomo Tag Manager */
+                                var _mtm = _mtm || [];
+                                _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+                                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                                g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://app.cgd.pt/pwa/js/container_1MzhO1Ne.js'; s.parentNode.insertBefore(g,s);
+                                /* End Matomo Tag Manager */
+  </script>
+  <script>
+   var navType = 'Other';
+                            switch (performance.getEntriesByType('navigation')[0].type) {
+                                case 'navigate':
+                                    navType = 'Navigate';
+                                    break;
+                                case 'reload':
+                                    navType = 'Reload';
+                                    break;
+                                case 'back_forward':
+                                    navType = 'Back / Forward';
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                            window.dataLayer = window.dataLayer || [];
+                            window.dataLayer.push({
+                                'navigationType': navType,
+                            });
+  </script>
+  <script type="text/javascript">
+   if (!String.prototype.startsWith) {
+                    Object.defineProperty(String.prototype, 'startsWith', {
+                        value: function(search, rawPos) {
+                            var pos = rawPos > 0 ? rawPos|0 : 0;
+                            return this.substring(pos, pos + search.length) === search;
+                        }
+                    });
+                }
+              
+                function getCookie( name ) {
+                    var cookie = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+                    return cookie != null ? cookie.pop() : '';
+                }
+
+                function setCookie(name, value, exdate) {
+                    //If exdate exists then pass it as a new Date and convert to UTC format
+                    (exdate) && (exdate = new Date(exdate).toUTCString());
+                    var c_value = escape(value) + ((exdate === null || exdate === undefined) ? '' : '; expires = ' + exdate);
+                    document.cookie = name + '=' + c_value + '; path =/ ';
+                };
+
+                function addMonths(date, months) {
+                    var d = date.getDate();
+                    date.setMonth(date.getMonth() + +months);
+                    if (date.getDate() != d) {
+                      date.setDate(0);
+                    }
+                    return date;
+                }
+
+                var ref = document.referrer;
+               if (ref.startsWith('https://caixadirectaonline.cgd.pt')) {
+                    var oldCookie = getCookie('gtmp');
+                    var oldParams = new URLSearchParams(decodeURIComponent(oldCookie));
+
+                    oldParams.set('isClient', 'Yes');
+
+                    setCookie('gtmp', oldParams.toString(), addMonths(new Date(), 12));
+
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        'isClient': 'Yes',
+                    });
+                } else {
+                    var cookie = getCookie('gtmp');
+
+                    if (cookie != '') {
+                        var params = new URLSearchParams(decodeURIComponent(cookie));
+
+                        if (params.has('isClient')) {
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                            'isClient': 'Yes',
+                        });
+                        } else {
+                            window.dataLayer = window.dataLayer || [];
+                            window.dataLayer.push({
+                                'isClient': 'No',
+                            });
+                        }
+                    } else {
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                            'isClient': 'No',
+                        });
+                    }
+                }
+  </script>
+  <script type="text/javascript">
+   /* Google Tag Manager */
+                            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KGMG7W6');
+                            /* End Google Tag Manager */
+  </script>
+  <script class="optanon-category-C0004" src="../../beacon/caixageraldedepositossa/production_cgd_pt/scripts/evergage.min.js" type="text/plain">
+  </script>
+  <script class="optanon-category-C0004" src="../../3268190f86be4abbfa5adb3432b12a47.js" type="text/plain">
+  </script>
+ </head>
+ <!--[if IE 8 ]><body data-control="COMMON" class="prod ie8 inside"><![endif]-->
+ <!--[if IE 9 ]><body data-control="COMMON" class="prod ie9 inside"><![endif]-->
+ <!--[if gt IE 9]><!-->
+ <body class="prod inside" data-control="COMMON">
+  <!--<![endif]-->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KGMG7W6" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="imgPrefetch" style="display:none">
+   <img alt="logo CGD" src="../../PublishingImages/WSImages/Novo-CGD/favicon.ico-1.png?rev=23"/>
+  </div>
+  <div class="aspNetHidden">
+  </div>
+  <div>
+   <div id="s4-ribbonrow" style="visibility:hidden;display:none">
+   </div>
+  </div>
+  <div id="s4-workspace">
+   <div id="s4-bodyContainer">
+    <a class="access-main" href="#mainContent" id="accessMainContent">
+    </a>
+    <!-- ===== STARTER: This decides where the web part menu lives ===================================================== -->
+    <div id="ctl00_DeltaPlaceHolderMain">
+     <header class="header-site hideprint">
+      <div id="ctl00_SearchCrawlExclusionControl3">
+       <div class="menu-wrapper">
+        <nav class="menu-site">
+         <div class="menu-header">
+          <div class="menu-languages">
+           <ul class="languages">
+            <li class="active">
+             <a href="Particulares_v2.aspx.html" onclick="_paq.push(['trackEvent', 'Top Menu', 'PT']); return true;">
+              Pt
+             </a>
+            </li>
+            <li>
+             <a href="/english/" onclick="_paq.push(['trackEvent', 'Top Menu', 'EN']); return true;">
+              En
+             </a>
+            </li>
+           </ul>
+          </div>
+          <ul class="menu-center" id="menu">
+           <li class="active">
+            <a href="Particulares_v2.aspx.html" onclick="_paq.push(['trackEvent', 'Top Menu', 'Particulares' ]); return true;">
+             Particulares
+            </a>
+           </li>
+           <li class="">
+            <a href="/Empresas/Pages/Empresas_v2.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Empresas' ]); return true;">
+             Empresas
+            </a>
+           </li>
+           <li class="">
+            <a href="/Institucional/Pages/Institucional_v2.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Institucional' ]); return true;">
+             Institucional
+            </a>
+           </li>
+           <li class="">
+            <a href="/Sustentabilidade/Pages/Sustentabilidade.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Sustentabilidade' ]); return true;">
+             Sustentabilidade
+            </a>
+           </li>
+           <li class="">
+            <a href="/Investor-Relations/Pages/Investor-Relations_v2.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Investor Relations' ]); return true;">
+             Investor Relations
+            </a>
+           </li>
+           <li class="">
+            <a href="/Ajuda/Pages/Ajuda.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Ajuda' ]); return true;">
+             Ajuda
+            </a>
+           </li>
+           <li class="">
+            <a href="/Saldo-Positivo/Pages/Saldo-Positivo.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Saldo Positivo' ]); return true;">
+             Saldo Positivo
+            </a>
+           </li>
+          </ul>
+          <div class="toolbox menu-direct">
+           <div class="direct">
+            <a class="direct-link desktop" href="#">
+             Caixadirecta
+            </a>
+            <a class="direct-link mobile" href="#">
+             Login
+            </a>
+           </div>
+          </div>
+          <div class="menu-mobile">
+           <div class="selected">
+            Particulares
+           </div>
+           <ul class="menu-center-mobile">
+            <li class="active">
+             <a href="Particulares_v2.aspx.html" onclick="_paq.push(['trackEvent', 'Top Menu', 'Particulares' ]); return true;">
+              Particulares
+             </a>
+            </li>
+            <li class="">
+             <a href="/Empresas/Pages/Empresas_v2.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Empresas' ]); return true;">
+              Empresas
+             </a>
+            </li>
+            <li class="">
+             <a href="/Institucional/Pages/Institucional_v2.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Institucional' ]); return true;">
+              Institucional
+             </a>
+            </li>
+            <li class="">
+             <a href="/Sustentabilidade/Pages/Sustentabilidade.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Sustentabilidade' ]); return true;">
+              Sustentabilidade
+             </a>
+            </li>
+            <li class="">
+             <a href="/Investor-Relations/Pages/Investor-Relations_v2.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Investor Relations' ]); return true;">
+              Investor Relations
+             </a>
+            </li>
+            <li class="">
+             <a href="/Ajuda/Pages/Ajuda.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Ajuda' ]); return true;">
+              Ajuda
+             </a>
+            </li>
+            <li class="">
+             <a href="/Saldo-Positivo/Pages/Saldo-Positivo.aspx" onclick="_paq.push(['trackEvent', 'Top Menu', 'Saldo Positivo' ]); return true;">
+              Saldo Positivo
+             </a>
+            </li>
+           </ul>
+           <div class="close-menu">
+           </div>
+          </div>
+         </div>
+        </nav>
+       </div>
+       <div class="direct-wrapper">
+        <div class="direct-content desktop clearfix">
+         <div class="apCDO">
+          <h2 class="title-access">
+           Acesso Caixadirecta
+          </h2>
+         </div>
+         <div class="direct-close">
+          <a href="#">
+           x
+          </a>
+         </div>
+         <div class="access" id="login">
+          <div class="div-ceb">
+           <h2 class="login-segmento">
+            Empresas
+           </h2>
+           <form action="https://caixaebankingonline.cgd.pt/ceb/login.seam" method="post">
+            <fieldset class="complete desktop">
+             <legend class="hidden">
+              Código de empresa
+             </legend>
+             <span>
+              Empresas
+             </span>
+             <div>
+              <label class="hidden" for="input_cx2">
+               Código de empresa
+               <span class="offset">
+                Código de Empresa
+               </span>
+              </label>
+              <input class="select" id="input_cx2" maxlength="7" name="USERNAME" onblur="if(this.value=='') this.value='Código de empresa'" onclick="return true;" onfocus="if(this.value=='Código de empresa') this.value=''" onkeypress="return isn(event,this.id,'Preencha, por favor, o n\372mero de contrato do Caixadirecta empresas')" type="text" value="Código de empresa"/>
+              <input class="okbtn" id="login_btn_2" name="login_btn_2" onclick="return cdosubmit('input_cx2','Código de empresa','Preencha, por favor, o n\372mero de contrato do Caixadirecta empresas')" type="submit" value="OK"/>
+              <div class="note">
+               <a href="/Empresas/Gestao_corrente/Servicos/Pages/Ajuda-Caixadirecta-Empresas.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Empresas - Ajuda']);">
+                Ajuda Empresas
+               </a>
+              </div>
+             </div>
+            </fieldset>
+           </form>
+          </div>
+          <div class="div-cdo">
+           <h2 class="login-segmento">
+            Particulares
+           </h2>
+           <form action="https://caixadirectaonline.cgd.pt/cdo/login.seam" method="post">
+            <fieldset class="complete desktop loginsepd">
+             <legend class="hidden">
+              Nº de Contrato
+             </legend>
+             <span>
+              Particulares
+             </span>
+             <div>
+              <label class="hidden" for="input_cx1">
+               Nº de Contrato
+               <span class="offset">
+                Número de contrato
+               </span>
+              </label>
+              <input class="select" id="input_cx1" maxlength="7" name="USERNAME" onblur="if(this.value=='') this.value='Nº de Contrato'" onclick="return true;" onfocus="if(this.value=='Nº de Contrato') this.value=''" onkeypress="return isn(event,this.id,'Preencha, por favor, o n\372mero de contrato do Caixadirecta on-line')" type="text" value="Nº de Contrato"/>
+              <input class="okbtn" id="login_btn_1" name="login_btn_1" onclick="return cdosubmit('input_cx1','Nº de Contrato','Preencha, por favor, o n\372mero de contrato do Caixadirecta on-line')" type="submit" value="OK"/>
+              <div class="note">
+               <a href="/Particulares/Contas/Caixadirecta/Pages/Ajuda-Caixadirecta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Particulares - Ajuda']);">
+                Ajuda Particulares
+               </a>
+              </div>
+              <input name="tipoTrat" type="hidden" value=""/>
+              <input name="codFamiliaProduto" type="hidden" value=""/>
+              <input name="numIntEspecie" type="hidden" value=""/>
+              <input name="RedirFunc" type="hidden" value=""/>
+             </div>
+            </fieldset>
+           </form>
+           <div class="div-chave">
+            <div class="img-chave">
+             <a href="https://caixadirectaonline.cgd.pt/cdo/loginAMA.seam" title="Autenticação com chave movel">
+              <img alt="Chave móvel digital" src="../../PublishingImages/WSImages/Novo-CGD/linkGOV.png"/>
+             </a>
+            </div>
+            <div class="note">
+             <a href="/Ajuda/Seguranca/Pages/Pedir-Chave-Movel-Digital.aspx" target="_blank">
+              Saiba mais sobre a Chave Móvel Digital
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div style="float:left">
+          <div class="col1">
+           <p class="ap aptitle">
+            Quero ser cliente:
+           </p>
+           <p class="ap seta">
+            <a href="/Particulares/Contas/RedirectTo/Pages/Redirectto.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Particulares - Adesão']);">
+             Aderir ao Caixadirecta Particulares
+            </a>
+           </p>
+           <p class="ap seta">
+            <a href="/Empresas/Gestao_corrente/Servicos/Pages/Caixadirecta-Empresas.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Empresas - Adesão']);">
+             Aderir ao Caixadirecta Empresas
+            </a>
+           </p>
+          </div>
+          <div class="col2">
+           <p class="ap aptitle">
+            Links úteis:
+           </p>
+           <p class="ap seta">
+            <a class="app" href="/ajuda/APPs-Redes-Sociais-CGD/Pages/Apps-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Download']); return true;">
+             Faça download da App Caixadirecta
+            </a>
+           </p>
+           <p class="ap seta">
+            <a class="security" href="/ajuda/Seguranca/Pages/Seguranca-e-Fraude.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Segurança']); return true;">
+             Recomendações de Segurança
+            </a>
+           </p>
+           <p class="ap seta">
+            <a class="docsignature" href="/Empresas/Gestao_corrente/Servicos/Pages/AssinaturaCDE.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Assinatura Documentos']); return true;">
+             Assinatura Digital de Documentos
+            </a>
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="direct-content mobile clearfix">
+         <a class="close" href="#">
+          Fechar
+         </a>
+         <h2 class="title-access">
+          Acesso Caixadirecta
+         </h2>
+         <div class="access">
+          <div class="div-cdo">
+           <h2 class="login-segmento">
+            Particulares
+           </h2>
+           <form action="https://caixadirectaonline.cgd.pt/cdo/login.seam" method="post">
+            <fieldset class="complete mobile">
+             <legend class="hidden">
+              Nº de Contrato
+             </legend>
+             <span>
+              Particulares
+             </span>
+             <div>
+              <label class="hidden" for="input_cx1_m">
+               Nº de Contrato
+               <span class="offset">
+                Número de contrato
+               </span>
+              </label>
+              <input class="select" id="input_cx1_m" maxlength="7" name="USERNAME" onblur="if(this.value=='') this.value='Nº de Contrato'" onclick="return true;" onfocus="if(this.value=='Nº de Contrato') this.value=''" onkeypress="return isn(event,this.id,'Preencha, por favor, o n\372mero de contrato do Caixadirecta on-line')" type="text" value="Nº de Contrato"/>
+              <input class="okbtn" id="login_btn_1_m" name="login_btn_1" onclick="return cdosubmit('input_cx1_m','Nº de Contrato','Preencha, por favor, o n\372mero de contrato do Caixadirecta on-line')" type="submit" value="OK"/>
+              <div class="note">
+               <a href="/Particulares/Contas/Caixadirecta/Pages/Ajuda-Caixadirecta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Particulares - Ajuda']);">
+                Ajuda Particulares
+               </a>
+              </div>
+              <input name="tipoTrat" type="hidden" value=""/>
+              <input name="codFamiliaProduto" type="hidden" value=""/>
+              <input name="numIntEspecie" type="hidden" value=""/>
+              <input name="RedirFunc" type="hidden" value=""/>
+             </div>
+            </fieldset>
+           </form>
+           <div class="div-chave">
+            <div class="img-chave">
+             <a href="https://caixadirectaonline.cgd.pt/cdo/loginAMA.seam" title="Autenticação com chave movel">
+              <img alt="Chave móvel digital" src="../../PublishingImages/WSImages/Novo-CGD/linkGOV.png"/>
+             </a>
+            </div>
+            <div class="note">
+             <a href="/Ajuda/Seguranca/Pages/Pedir-Chave-Movel-Digital.aspx" target="_blank">
+              Saiba mais sobre a Chave Móvel Digital
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="div-ceb">
+           <h2 class="login-segmento">
+            Empresas
+           </h2>
+           <form action="https://caixaebankingonline.cgd.pt/ceb/login.seam" method="post">
+            <fieldset class="complete mobile">
+             <legend class="hidden">
+              Código de empresa
+             </legend>
+             <span>
+              Empresas
+             </span>
+             <div>
+              <label class="hidden" for="input_cx2_m">
+               Código de empresa
+               <span class="offset">
+                Código de Empresa
+               </span>
+              </label>
+              <input class="select" id="input_cx2_m" maxlength="7" name="USERNAME" onblur="if(this.value=='') this.value='Código de empresa'" onclick="return true;" onfocus="if(this.value=='Código de empresa') this.value=''" onkeypress="return isn(event,this.id,'Preencha, por favor, o n\372mero de contrato do Caixadirecta empresas')" type="text" value="Código de empresa"/>
+              <input class="okbtn" id="login_btn_2_m" name="login_btn_2" onclick="return cdosubmit('input_cx2_m','Código de empresa','Preencha, por favor, o n\372mero de contrato do Caixadirecta empresas')" type="submit" value="OK"/>
+              <div class="note">
+               <a href="/Empresas/Gestao_corrente/Servicos/Pages/Ajuda-Caixadirecta-Empresas.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Empresas - Ajuda']);">
+                Ajuda Empresas
+               </a>
+              </div>
+             </div>
+            </fieldset>
+           </form>
+          </div>
+         </div>
+         <div style="float:left">
+          <div class="col1">
+           <p class="ap aptitle">
+            Quero ser cliente:
+           </p>
+           <p class="ap seta">
+            <a href="/Particulares/Contas/RedirectTo/Pages/Redirectto.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Particulares - Adesão']);">
+             Aderir ao Caixadirecta Particulares
+            </a>
+           </p>
+           <p class="ap seta">
+            <a href="/Empresas/Gestao_corrente/Servicos/Pages/Caixadirecta-Empresas.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Empresas - Adesão']);">
+             Aderir ao Caixadirecta Empresas
+            </a>
+           </p>
+          </div>
+          <div class="col2">
+           <p class="ap aptitle">
+            Links úteis:
+           </p>
+           <p class="ap seta">
+            <a class="app" href="/ajuda/APPs-Redes-Sociais-CGD/Pages/Apps-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Download']); return true;">
+             Faça download da App Caixadirecta
+            </a>
+           </p>
+           <p class="ap seta">
+            <a class="security" href="/ajuda/Seguranca/Pages/Seguranca-e-Fraude.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Caixadirecta', 'Segurança']); return true;">
+             Recomendações de Segurança
+            </a>
+           </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </header>
+     <div class="main">
+      <header class="header-area">
+       <div id="ctl00_SearchCrawlExclusionControl4">
+        <div class="menu-wrapper">
+         <div class="wrapper">
+          <div class="menu-area clearfix open">
+           <a class="logo icon-icon00" href="Particulares_v2.aspx.html" onclick="_paq.push(['trackEvent', 'Top Menu', 'Logotipo']);">
+            <h1 class="screen-reader-text">
+             Protocolos Caixa
+            </h1>
+           </a>
+           <a class="menu-icon icon-icons_72">
+           </a>
+           <nav class="menu-mobile hideprint">
+            <ul>
+             <li>
+              <a href="/Particulares/Contas/Pages/Redirect.aspx">
+               Contas
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Abertura de conta
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Abertura-conta/Pages/Abertura-conta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Abrir conta à distância']); return true;" title="Formulário de preenchimento online para abertura de conta à distância.">
+                  Abrir conta à distância
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Contas
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Pages/Conta-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Soluções Multiproduto']); return true;" title="Soluções Multiproduto">
+                  Soluções Multiproduto
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Contas-a-Ordem/Pages/Contas-Ordem.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Contas à ordem']); return true;" title="Contas à ordem">
+                  Contas à ordem
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Serviços
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Pages/Servico-Mudanca-de-Conta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Serviço Mudança de Conta']); return true;" title="">
+                  Serviço Mudança de Conta
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/Cartoes/Pages/Redirect.aspx">
+               Cartões
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Cartões para si
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Pages/Cartoes-de-Credito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Cartões de Crédito']); return true;" title="Oferta de Cartões de Crédito da Caixa">
+                  Cartões de Crédito
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartoes-de-Debito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Cartões de Débito']); return true;" title="Oferta de Cartões de Débito da Caixa">
+                  Cartões de Débito
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-Pre-pagos/Pages/Cartoes-Pre-pagos.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Cartões Pré-Pagos']); return true;" title="Os seus cartões pré-pagos para manter as despesas sob controlo.">
+                  Cartões Pré-Pagos
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Pages/Fracionamentos-automaticos.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Pagamentos Fracionados']); return true;" title="Pagamentos Fracionados - Poupança com cartões">
+                  Pagamentos Fracionados
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Parceiros/Pages/Parceiros-Cartoes-SempreCaixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Benefícios Sempre em Caixa']); return true;" title="Programa de parcerias Sempre em Caixa. Entre num mundo de benefícios.">
+                  Benefícios Sempre em Caixa
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Pagamentos Digitais
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/3D-Secure-Service.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', '3D Secure']); return true;" title="Pagamentos on-line com segurança acrescida. Adesão no Caixadirecta.">
+                  3D Secure
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/App-MBWay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'App MB Way']); return true;" title="Compras, transferências imediatas e levantamentos com o telemóvel.">
+                  App MB Way
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Apple-Pay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Apple Pay']); return true;" title="Basta encostar em qualquer terminal de pagamento para poder pagar sem cartão.">
+                  Apple Pay
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Google-Pay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Google Pay']); return true;" title="Os clientes Caixa já podem pagar com o Google Pay utilizando o seu smartphone Android ou smartwatch Wear OS.">
+                  Google Pay
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Tecnologia-Contactless.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Contactless']); return true;" title="Uma funcionalidade que torna mais fácil e cómoda a utilização do seu cartão para pequenos montantes">
+                  Contactless
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/MBNet.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Serviço MB Net']); return true;" title="Um serviço gratuito que permite a criação de cartões MB NET (cartões virtuais para pagamentos não presenciais), a partir de um cartão bancário de débito, crédito ou pré-pago.">
+                  Serviço MB Net
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Swatch-Pay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'SwatchPAY!']); return true;" title="Para realizar pagamentos sem contacto">
+                  SwatchPAY!
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/PayPal.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'PayPal']); return true;" title="Associar os seus cartões à conta PayPal diretamente através da app Caixadirecta">
+                  PayPal
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Ferramentas
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Pages/DocumentosDigitais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Documentos Digitais']); return true;" title="O que são, as vantagens, a adesão e o acesso aos documentos digitais.">
+                  Documentos Digitais
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-Pre-pagos/Pages/Portal-pre-pagos.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Portal Pré-pagos']); return true;" title="Portal para a gestão do cartão pré-pago Caixa Break.">
+                  Portal Pré-pagos
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Simulador-Cartoes-Credito/Pages/Simulador-de-Cartes-de-Credito.aspx#!/PagamentoFracionado" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Simulador Cartões Crédito']); return true;" title="Simulador com informação sobre os encargos com o cartão de crédito e com a linha de pagamentos fracionados.">
+                  Simulador Cartões Crédito
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Simulador-Encargos-Cambiais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Simulador de Encargos de Conversão Cambial']); return true;" title="EU Regulation 518: simulador para cálculo de encargos de conversão cambial.">
+                  Simulador de Encargos de Conversão Cambial
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Sustentabilidade/Responsabilidade-Ambiental/Pages/Reciclagem-Cartoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Reciclagem de Cartões']); return true;" title="Promover a Economia Circular">
+                  Reciclagem de Cartões
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Seguranca/Pages/Recomendacoes-Seguranca-Cartoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Segurança de Cartões']); return true;" title="Conselhos para uma utilização segura do seu cartão.">
+                  Segurança de Cartões
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Pages/Glossario-Cartoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Glossário de Cartões']); return true;" title="Glossário de Cartões">
+                  Glossário de Cartões
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Cartoes/Parceiros/Pages/parceiros-cartoes-caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Outros parceiros']); return true;" title="SEJA QUAL FOR O CARTÃO, SÓ TEM É QUE SER DA CAIXA.
+Aproveite os descontos, promoções e outros benefícios nos nossos Parceiros.">
+                  Outros parceiros
+                 </a>
+                </li>
+                <li>
+                 <a href="../../Ajuda/Open-Banking/SIBS-API-MARKET/PublishingImages/Direitos-consumidores-previstos-DSP2.pdf" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Direitos dos consumidores (DSP2)']); return true;" title="Link para o documento sobre os Direitos dos consumidores (DSP2).">
+                  Direitos dos consumidores (DSP2)
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/Credito/Pages/Redirect.aspx">
+               Crédito
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Crédito Habitação
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Credito-habitacao-Regime-Geral.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Comprar casa']); return true;" title="Oferta de Crédito Habitação da Caixa para Comprar casa">
+                  Comprar casa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Transferencia-Credito-Habitacao.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Transferir Crédito']); return true;" title="Transfira o seu Crédito para a Caixa">
+                  Transferir Crédito
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Credito-habitacao-Construcao.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Construir casa']); return true;" title="Construa a sua casa de sonho com a Caixa">
+                  Construir casa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Credito-Habitacao-Propria-Obras.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Fazer obras']); return true;" title="Faça obras na sua casa com o apoio da Caixa">
+                  Fazer obras
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Investimento-Imobiliario.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Investir em imobiliário']); return true;" title="A solução para investir em estabelecimentos comerciais">
+                  Investir em imobiliário
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/credito-habitacao-Geral.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Ver oferta']); return true;" title="Ver toda a Oferta da Caixa de Crédito Imobiliário.">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Crédito Pessoal
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Credito-Pessoal-Expresso-Multifinalidade.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Expresso Multifinalidade']); return true;" title="Crédito Pessoal Expresso Multifinalidade">
+                  Expresso Multifinalidade
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Crediformacao-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Formação']); return true;" title="Crédito para financiamento de despesas com educação em Portugal ou no estrangeiro.">
+                  Formação
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Credito-Pessoal-Saude-Emergencia.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Saúde']); return true;" title="Crédito Pessoal para fazer face a despesas de saúde inesperadas.">
+                  Saúde
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Caixa-Casa-Amiga-do-Ambiente.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Caixa Casa Amiga do Ambiente']); return true;" title="">
+                  Caixa Casa Amiga do Ambiente
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Caixaordenado.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Caixaordenado']); return true;" title="">
+                  Caixaordenado
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Credito-Pessoal.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Ver oferta']); return true;" title="Ver toda a Oferta da Caixa de Crédito Pessoal">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Crédito Automóvel
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Credito-Auto-Expresso.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Comprar carro novo ou usado']); return true;" title="Crédito Auto Expresso">
+                  Comprar carro novo ou usado
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/credito-auto-eletrico-hibrido.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Comprar carro elétrico ou híbrido']); return true;" title="Comprar carro elétrico ou híbrido">
+                  Comprar carro elétrico ou híbrido
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Leasing-Automovel.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Leasing']); return true;" title="Solução de leasing auto para viaturas novas, ligeiras de passageiros e/ou mercadorias.">
+                  Leasing
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Renting-Automovel.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Renting']); return true;" title="Solução de Renting da Locarent para viaturas novas com um pacote de serviços associados à sua utilização, com uma renda fixa mensal.">
+                  Renting
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Solucao-Caixa-Auto.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Ver oferta']); return true;" title="Ver toda a oferta de soluções para compra de automóvel">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Simuladores
+                </li>
+                <li>
+                 <a href="https://simuladorch.cgd.pt/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Crédito Habitação']); return true;" title="Simulador Expresso de Crédito Habitação que permite simular opções de Taxa Variável, Taxa Fixa ou Taxa mista.">
+                  Crédito Habitação
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Simulador-Expresso/Pages/Credito-Pessoal-Simulador-Expresso.aspx#!/ExpressoMultifinalidade" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Crédito Pessoal']); return true;" title="Simulador expresso de Crédito pessoal que permite simular os encargos para crédito  formação.">
+                  Crédito Pessoal
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Simulador-Expresso/Pages/Credito-Pessoal-Simulador-Expresso.aspx#!/ExpressoAutomovel" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Crédito Automóvel']); return true;" title="Simular crédito automóvel">
+                  Crédito Automóvel
+                 </a>
+                </li>
+                <li>
+                 <a href="https://simuladores.cgd.pt/TurismoResidencial/SDSTR/Pages/personalData.aspx?locale=pt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Live in Portugal ']); return true;" title="Link para o Simulador da oferta de crédito Live in Portugal ">
+                  Live in Portugal
+                 </a>
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                 Mais informação
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/ajuda/Pages/Glossario-Credito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Glossário de Crédito']); return true;" title="Glossário de Crédito">
+                  Glossário de Crédito
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/HP-Medidas-de-Apoio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Medidas Legislativas CH']); return true;" title="Medidas Legislativas de apoio a Clientes com Crédito Habitação">
+                  Medidas Legislativas CH
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/Poupanca-Investimento/Pages/Redirect.aspx">
+               Poupança e Investimento
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Depósitos
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Nova-Conta-Poupanca-Programada.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Nova Conta Poupança Programada']); return true;" title="Depósito a prazo simples a 6 meses, renovável automaticamente, mobilizável, com perda de juros sobre o capital mobilizado, e com possibilidade de atribuição de uma remuneração preferencial para clientes com entregas mensais programadas. Subscrição do produto no Caixadirecta online, ou na App Caixadirecta, ou em agência.">
+                  Nova Conta Poupança Programada
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Deposito-Especial-APP-3Meses.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Especial APP 3 Meses']); return true;" title="Depósito Especial APP 3 Meses">
+                  Depósito Especial APP 3 Meses
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/deposito-Natal-3meses.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Especial Natal 3 Meses']); return true;" title="Depósito Especial Natal 3 Meses">
+                  Depósito Especial Natal 3 Meses
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/deposito-Natal-6meses.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Especial Natal 6 Meses']); return true;" title="">
+                  Depósito Especial Natal 6 Meses
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/deposito-especial-12meses-nao-mobilizavel.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Caixa Especial 12 Meses']); return true;" title="Depósito Caixa 12 Meses">
+                  Depósito Caixa Especial 12 Meses
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Depositos-a-Prazo-e-Contas-Poupanca.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Ver oferta']); return true;" title="Ver toda a oferta de Depósitos a Prazo e Contas Poupança.">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Investimentos
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Pages/Fundosdeinvestimento.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Fundos de Investimento']); return true;" title="Oferta de Fundos de Investimento Mobiliário.">
+                  Fundos de Investimento
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Site/CXA/CGD-Pensoes/Pages/CGD-Pensoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Fundos de Pensões Abertos']); return true;" title="Informação relevante sobre Fundos de Pensões Abertos e apresentação das diferentes opções de investimento.">
+                  Fundos de Pensões Abertos
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/particulares/eu-quero/pages/planear-a-reforma.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Soluções Poupança Reforma']); return true;" title="Subscreva um complemento para a reforma durante a sua vida ativa e encare o futuro com mais confiança.">
+                  Soluções Poupança Reforma
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Seguros-Financeiros/Pages/Seguros-Financeiros.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Seguros Financeiros']); return true;" title="Seguros Financeiros para investir as suas poupanças.">
+                  Seguros Financeiros
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Intermediacao-Financeira/Pages/Bolsa-e-Mercados.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Bolsa e Mercados']); return true;" title="Informação sobre os Serviços de Intermediação Financeira prestados pela Caixa, tipos de operações e vantagens no Caixadirecta, bem como  Literacia financeira.">
+                  Bolsa e Mercados
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Informação ao Investidor
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Institucional/Pages/Podcast-Por-Conta-da-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Podcast | Por Conta da Caixa']); return true;" title="Por Conta da Caixa é o podcast que o convidamos a acompanhar mensalmente">
+                  Podcast | Por Conta da Caixa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Diretiva-Acionistas.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Eventos Corporativos']); return true;" title="Diretiva dos acionistas: Mapa de eventos corporativos">
+                  Eventos Corporativos
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Perfil-de-Investidor.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Perfil de Investidor']); return true;" title="Qual o seu perfil de investidor?">
+                  Perfil de Investidor
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Analise-Economia-e-Mercados.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Análise de Mercado']); return true;" title="Análise semanal e mensal de economia e mercados financeiros.">
+                  Análise de Mercado
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Instrumentos-Financeiros_Acoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Instrumentos Financeiros']); return true;" title="Literacia sobre os vários instrumentos financeiros">
+                  Instrumentos Financeiros
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/DMIF.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'DMIF']); return true;" title="Diretiva dos nercados de instrumentos financeiros">
+                  DMIF
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                 Ferramentas
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Aconselhador-de-Poupancas/Pages/Aconselhador-Poupanca.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Aconselhador de Poupanças']); return true;" title="Aconselhador de produtos de poupança em função do perfil definido pelo cliente.">
+                  Aconselhador de Poupanças
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Poupanca-Automatica/Pages/Poupanca-Automatica.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Poupança automática']); return true;" title="8 mecanismos para poupar">
+                  Poupança automática
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Simulador-FIM-PPR/Pages/Simulador-Fundos-Investimento-Mobiliario-PPR.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Simulador PPR']); return true;" title="Simulador de Fundos Investimento Mobiliário PPR">
+                  Simulador PPR
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Carteiras-Investimento/Pages/Carteiras-de-Investimento.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Construção de carteiras']); return true;" title="Como pode distribuir os investimentos de acordo com as suas necessidades e objetivos? Qual a carteira que mais se adequa ao seu perfil? ">
+                  Construção de carteiras
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Simulador-Cotacoes/Pages/Simulador-Cotacoes-Fundos-Investimento.aspx#!/Cotacoes" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Simulador de Cotações']); return true;" title="Simulador de Cotações">
+                  Simulador de Cotações
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/Imoveis/Pages/Redirect.aspx">
+               Imóveis
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Bolsas de Imóveis
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Imoveis/Pages/Oferta-Imobiliario.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Oferta Imóveis']); return true;" title="Informação sobre o apoio especializado da Caixa Imobiliário na procura e aquisição de imóveis do Grupo Caixa e  de Parceiros Caixa.">
+                  Oferta Imóveis
+                 </a>
+                </li>
+                <li>
+                 <a href="http://caixaimobiliario.pt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Caixa Imobiliário']); return true;" title="Oferta de imóveis Caixa Imobiliário">
+                  Caixa Imobiliário
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Crédito
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Oportunidades-Imoveis-Caixa-Habitacao-Propria.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Imóveis Caixa']); return true;" title="Financiamentos da Caixa para compra de imóveis CGD">
+                  Imóveis Caixa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Site/Live-in-Portugal/Products-and-services/Mortgage-solutions/Pages/Mortgages-Solutions.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Live in Portugal']); return true;" title="Crédito Imobiliário para turismo residencial - Habitação ou investimento.">
+                  Live in Portugal
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Condomínios
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Imoveis/Pages/Solucoes-Condominio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Soluções Condomínio']); return true;" title="Soluções para a gestão de condomínios: conta à orde, conta poupança e seguro.">
+                  Soluções Condomínio
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                 Simuladores
+                </li>
+                <li>
+                 <a href="https://simuladorch.cgd.pt/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Simulador Crédito Habitação']); return true;" title="Simulador de Crédito Habitação que permite simular opções de Taxa Variável, Taxa Fixa ou Taxa mista.">
+                  Simulador Crédito Habitação
+                 </a>
+                </li>
+                <li>
+                 <a href="https://simuladores.cgd.pt/TurismoResidencial/SDSTR/Pages/personalData.aspx?locale=pt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Live in Portugal ']); return true;" title="Link para o Simulador da oferta de crédito Live in Portugal ">
+                  Live in Portugal
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/Seguros/Pages/Seguros.aspx">
+               Seguros
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Saúde
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Saude-Multicare.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Seguro de Saúde Multicare']); return true;" title="Seguros de Saúde Multicare 1, 2 e 3">
+                  Seguro de Saúde Multicare
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Saude-Oncologico.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multicare Proteção Vital']); return true;" title="Seguro de saúde com cobertura específica de oncologia">
+                  Multicare Proteção Vital
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Multicare-Activcare-Dental.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multicare Dental']); return true;" title="Seguro de saúde na área da estomatologia e medicina dentária">
+                  Multicare Dental
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Oferta-Multicare-60-Mais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multicare 60+']); return true;" title="Seguro de saúde para melhores cuidados a partir dos 61 anos de idade">
+                  Multicare 60+
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Multicare-Seguros-Saude.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Ver oferta']); return true;" title="Oferta de seguros de saúde">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Vida
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/seguro-vida-risco-geracoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Vida Risco Gerações']); return true;" title="Uma proteção robusta para toda a família, com coberturas específicas que garantem uma sustentabilidade financeira do agregado familiar, se surgir algum imprevisto.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​">
+                  Vida Risco Gerações
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/particulares/seguros/pages/seguro-vida.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Caixa Seguro Vida']); return true;" title="Seguro de Vida com garantia de pagamento do capital seguro associado ao Crédito à Habitação">
+                  Caixa Seguro Vida
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/particulares/seguros/pages/protecao-vital65.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Proteção Vital 65+']); return true;" title="Seguro de Vida com contrato de seguro vitalício para pessoas com 65 anos de idade ou mais">
+                  Proteção Vital 65+
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Vida22.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Ver oferta']); return true;" title="Oferta de seguros de vida">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Casa
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Fidelidade-Casa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multirriscos Habit. Fidelidade Casa']); return true;" title="Seguro que protege a casa, a família e salvaguardamos eventuais danos causados a terceiros">
+                  Multirriscos Habit. Fidelidade Casa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Casa-Recheio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Casa Pack Recheio']); return true;" title="Proteção contra os principais riscos que envolvem o conteúdo ou recheio da habitação">
+                  Casa Pack Recheio
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Condominio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Caixa Seguro Condominio']); return true;" title="Seguro que protege a totalidade do seu condomínio, todas as frações autónomas e respetivas áreas comuns">
+                  Caixa Seguro Condominio
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Habitacao.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Ver oferta']); return true;" title="Oferta de seguros para a casa">
+                  <strong>
+                   Ver oferta
+                  </strong>
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Outros
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Acidentes-Pessoais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Acidentes Pessoais']); return true;" title="Seguro que protege contra acidentes pessoais relacionados com atividades desportivas e de lazer">
+                  Acidentes Pessoais
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Automovel-Liber3G.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Automóvel Liber 3G']); return true;" title="Não deixe que os imprevistos o ultrapassem.">
+                  Automóvel Liber 3G
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Fidelidade-Pets.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Saúde Animal Pets']); return true;" title="Seguro de Responsabilidade Civil e de Saúde de Animais de Companhia.">
+                  Saúde Animal Pets
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Empregada-Domestica.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Trabalho Doméstico']); return true;" title="Seguro de acidentes de trabalho para trabalho doméstico, obrigatório por lei.">
+                  Trabalho Doméstico
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Protecao-Credito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Proteção ao Crédito Habitação']); return true;" title="Seguros de Proteção ao Crédito Habitação">
+                  Proteção ao Crédito Habitação
+                 </a>
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="../Seguros/Documents/Politica-Tratamento-Tomadores-Seguros.pdf" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Política de Tratamento de Seguros']); return true;" title="Política de tratamento dos tomadores de seguros, segurados, beneficiários e terceiros lesados">
+                  Política de Tratamento de Seguros
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/A-sua-Medida/Pages/Redirect.aspx">
+               À sua Medida
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 À sua medida
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Residentes-no-Estrangeiro/Pages/Solucoes-RE.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Residentes no estrangeiro']); return true;" title="Oferta exclusiva da Caixa para Residentes no Estrangeiro">
+                  Residentes no estrangeiro
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Jovens/Pages/Jovens.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Crianças e Jovens']); return true;" title="Para Crianças e Jovens.">
+                  Crianças e Jovens
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Universitarios/Pages/Universitarios-CaixaIU.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Universitários']); return true;" title="Oferta exclusiva da Caixa para Universitários">
+                  Universitários
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Jovens/Pages/Jovens-28-30.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Jovens adultos']); return true;" title="Oferta exclusiva da Caixa para Jovens adultos.">
+                  Jovens adultos
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Caixazul/Pages/Caixazul.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Serviço Caixa Azul']); return true;" title="Serviço Caixa Azul">
+                  Serviço Caixa Azul
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Seniores/Pages/Caixa-Seniores.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Seniores']); return true;" title="">
+                  Seniores
+                 </a>
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                 Protocolos
+                </li>
+                <li>
+                 <a href="Protocolos-Clientes-Caixa.aspx.html" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Protocolos Caixa Colaborador Empresas']); return true;" title="">
+                  Protocolos Caixa Colaborador Empresas
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/banco-digital/Pages/CGD-Banco-Digital-dos-Particulares.aspx">
+               Banco Digital
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                </li>
+                <li class="title-list">
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Serviços Digitais
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Caixadirecta/Pages/Caixadirecta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Caixadirecta']); return true;" title="Serviço Caixadirecta. O seu serviço de homebanking sempre consigo, 24h por dia, 7 dias por semana e à distância de um click.">
+                  Caixadirecta
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Abertura-conta/Pages/Abertura-conta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Abrir Conta à distância']); return true;" title="Todas as vantagens de ser Cliente Caixa. É simples, rápido e cómodo.
+">
+                  Abrir Conta à distância
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Pages/DocumentosDigitais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Portal de Documentos Digitais']); return true;" title="Poupe o ambiente e adira aos documentos digitais. Saiba todas as opções que lhe disponibilizamos para ter acesso aos seus documentos digitais.">
+                  Portal de Documentos Digitais
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Atualizar-dados/Pages/Atualizar-dados-info.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Atualização de dados via Chave Móvel Digital']); return true;" title="Atualize os seus dados pessoais via Chave Móvel Digital">
+                  Atualização de dados via Chave Móvel Digital
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Open-Banking/SIBS-API-MARKET/Pages/Open-Banking-SIBS-API-Market.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Open Banking']); return true;" title="Um novo modelo de negócio que surge na sequência da Diretiva Europeia de Serviços de Pagamento (DSP2).">
+                  Open Banking
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/banco-digital/Pages/Caixa-no-Metaverso.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'A Caixa no Metaverso']); return true;" title="">
+                  A Caixa no Metaverso
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Contas/Caixadirecta/Pages/Refresh-App-Caixadirecta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'APP Caixadirecta']); return true;" title="Tudo o que precisa do seu Banco. Agora mais prática, com mais operações e com a segurança de sempre.">
+                  APP Caixadirecta
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Redes Sociais
+                </li>
+                <li>
+                 <a href="https://www.facebook.com/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Facebook Caixa']); return true;" title="Notícias, passatempos, eventos, e tudo o que nos aproxima. Com esta presença pretendemos simplificar a comunicação entre a Caixa e aqueles que nos visitam.">
+                  Facebook Caixa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.linkedin.com/company/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'LinkedIn']); return true;" title="Uma presença com a sigla Caixa. Esta página no Linkedin atua como uma plataforma com informação diferenciadora para uma rede profissional - altamente habilitada e motivada por valores de liderança.">
+                  LinkedIn
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.instagram.com/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Instagram']); return true;" title="EstamosCá para vos mostrar o outro lado. Sigam-nos e façam parte. ">
+                  Instagram
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.youtube.com/user/mediacgd" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Youtube Caixa']); return true;" title="A diversidade de atividades realizadas ou apoiadas pela Caixa Geral de Depósitos tem agora uma nova presença nas redes sociais, onde se pretende comunicar de forma simples, direta e útil o melhor que a Caixa tem para oferecer.">
+                  Youtube Caixa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.facebook.com/saldopositivo" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Facebook Saldo Positivo']); return true;" title="Programa de Literacia Financeira da Caixa">
+                  Facebook Saldo Positivo
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.youtube.com/user/saldopositivocgdpt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Youtube Saldo Positivo']); return true;" title="Portal Youtube do Saldo Positivo">
+                  Youtube Saldo Positivo
+                 </a>
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li>
+              <a href="/Particulares/montra-caixa/Pages/Loja-Caixa-antiga.aspx">
+               Loja Caixa
+              </a>
+              <div class="submenu">
+               <ul>
+                <li class="title-list">
+                 Loja Caixa
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Loja-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Todos os Produtos']); return true;" title="Todos os Produtos">
+                  Todos os Produtos
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                 Produtos
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Ouro-Numismatica.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Ouro e Numismática']); return true;" title="Ouro e Numismática">
+                  Ouro e Numismática
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/relogios.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Relojoaria']); return true;" title="Relojoaria">
+                  Relojoaria
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Joias.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Joias']); return true;" title="Joias">
+                  Joias
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Tecnologia-Mobile.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Tecnologia e Mobile']); return true;" title="Tecnologia e Mobile">
+                  Tecnologia e Mobile
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Gaming.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Gaming']); return true;" title="Gaming">
+                  Gaming
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Casa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Casa']); return true;" title="Casa">
+                  Casa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Vinhos-Sabores.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Vinhos e Sabores']); return true;" title="Vinhos e Sabores">
+                  Vinhos e Sabores
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Mobilidade-Viagens.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Mobilidade e Viagens']); return true;" title="Mobilidade e Viagens">
+                  Mobilidade e Viagens
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Arte.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Arte']); return true;" title="Arte">
+                  Arte
+                 </a>
+                </li>
+               </ul>
+               <ul>
+                <li class="title-list">
+                </li>
+               </ul>
+               <ul class="tools">
+                <li class="title-list">
+                </li>
+               </ul>
+              </div>
+             </li>
+            </ul>
+            <div class="direct">
+             <a href="#">
+              Acesso Caixadirecta
+             </a>
+            </div>
+           </nav>
+           <nav class="menu hideprint" id="menu2nivel">
+            <ul>
+             <li class="" data-mid="Contas">
+              <a href="#">
+               Contas
+              </a>
+             </li>
+             <li class="" data-mid="Cartoes">
+              <a href="#">
+               Cartões
+              </a>
+             </li>
+             <li class="" data-mid="Credito">
+              <a href="#">
+               Crédito
+              </a>
+             </li>
+             <li class="" data-mid="PoupancaInvestimento">
+              <a href="#">
+               Poupança e Investimento
+              </a>
+             </li>
+             <li class="" data-mid="Imoveis">
+              <a href="#">
+               Imóveis
+              </a>
+             </li>
+             <li class="" data-mid="Seguros">
+              <a href="#">
+               Seguros
+              </a>
+             </li>
+             <li class="" data-mid="AsuaMedida">
+              <a href="#">
+               À sua Medida
+              </a>
+             </li>
+             <li class="" data-mid="bancodigital">
+              <a href="#">
+               Banco Digital
+              </a>
+             </li>
+             <li class="" data-mid="montracaixa">
+              <a href="#">
+               Loja Caixa
+              </a>
+             </li>
+            </ul>
+           </nav>
+           <div class="menu-search hideprint">
+            <a class="search">
+            </a>
+           </div>
+          </div>
+         </div>
+         <div id="ctl00_searchPanel">
+          <div class="search-wrapper hideprint">
+           <div class="search-content">
+            <form action="/Pesquisa/Pages/Resultados-Pesquisa.aspx" method="post">
+             <input id="SearchTextBox" name="k" size="38" type="text" value="Pesquisar"/>
+             <input class="buttonpesquisa go" id="btnsubmit" name="btnsubmit" onclick="_paq.push(['trackEvent', 'Pesquisa', 'CGD', 'Submit']); return true;" type="submit" value="Pesquisar"/>
+            </form>
+           </div>
+          </div>
+         </div>
+         <div class="content-drop hideprint" id="menu3nivel">
+          <div class="drop-menu clearfix hidden js-Contas">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Abertura de conta
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Abertura-conta/Pages/Abertura-conta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Abrir conta à distância']); return true;" title="Formulário de preenchimento online para abertura de conta à distância.">
+                Abrir conta à distância
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Contas
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Pages/Conta-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Soluções Multiproduto']); return true;" title="Soluções Multiproduto">
+                Soluções Multiproduto
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Contas-a-Ordem/Pages/Contas-Ordem.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Contas à ordem']); return true;" title="Contas à ordem">
+                Contas à ordem
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Serviços
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Pages/Servico-Mudanca-de-Conta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Contas', 'Serviço Mudança de Conta']); return true;" title="">
+                Serviço Mudança de Conta
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix js-Cartoes">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Cartões para si
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Pages/Cartoes-de-Credito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Cartões de Crédito']); return true;" title="Oferta de Cartões de Crédito da Caixa">
+                Cartões de Crédito
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartoes-de-Debito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Cartões de Débito']); return true;" title="Oferta de Cartões de Débito da Caixa">
+                Cartões de Débito
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-Pre-pagos/Pages/Cartoes-Pre-pagos.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Cartões Pré-Pagos']); return true;" title="Os seus cartões pré-pagos para manter as despesas sob controlo.">
+                Cartões Pré-Pagos
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Pages/Fracionamentos-automaticos.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Pagamentos Fracionados']); return true;" title="Pagamentos Fracionados - Poupança com cartões">
+                Pagamentos Fracionados
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Parceiros/Pages/Parceiros-Cartoes-SempreCaixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Benefícios Sempre em Caixa']); return true;" title="Programa de parcerias Sempre em Caixa. Entre num mundo de benefícios.">
+                Benefícios Sempre em Caixa
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Pagamentos Digitais
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/3D-Secure-Service.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', '3D Secure']); return true;" title="Pagamentos on-line com segurança acrescida. Adesão no Caixadirecta.">
+                3D Secure
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/App-MBWay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'App MB Way']); return true;" title="Compras, transferências imediatas e levantamentos com o telemóvel.">
+                App MB Way
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Apple-Pay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Apple Pay']); return true;" title="Basta encostar em qualquer terminal de pagamento para poder pagar sem cartão.">
+                Apple Pay
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Google-Pay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Google Pay']); return true;" title="Os clientes Caixa já podem pagar com o Google Pay utilizando o seu smartphone Android ou smartwatch Wear OS.">
+                Google Pay
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Tecnologia-Contactless.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Contactless']); return true;" title="Uma funcionalidade que torna mais fácil e cómoda a utilização do seu cartão para pequenos montantes">
+                Contactless
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/MBNet.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Serviço MB Net']); return true;" title="Um serviço gratuito que permite a criação de cartões MB NET (cartões virtuais para pagamentos não presenciais), a partir de um cartão bancário de débito, crédito ou pré-pago.">
+                Serviço MB Net
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Swatch-Pay.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'SwatchPAY!']); return true;" title="Para realizar pagamentos sem contacto">
+                SwatchPAY!
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/PayPal.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'PayPal']); return true;" title="Associar os seus cartões à conta PayPal diretamente através da app Caixadirecta">
+                PayPal
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Ferramentas
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Pages/DocumentosDigitais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Documentos Digitais']); return true;" title="O que são, as vantagens, a adesão e o acesso aos documentos digitais.">
+                Documentos Digitais
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-Pre-pagos/Pages/Portal-pre-pagos.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Portal Pré-pagos']); return true;" title="Portal para a gestão do cartão pré-pago Caixa Break.">
+                Portal Pré-pagos
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Simulador-Cartoes-Credito/Pages/Simulador-de-Cartes-de-Credito.aspx#!/PagamentoFracionado" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Simulador Cartões Crédito']); return true;" title="Simulador com informação sobre os encargos com o cartão de crédito e com a linha de pagamentos fracionados.">
+                Simulador Cartões Crédito
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/Simulador-Encargos-Cambiais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Simulador de Encargos de Conversão Cambial']); return true;" title="EU Regulation 518: simulador para cálculo de encargos de conversão cambial.">
+                Simulador de Encargos de Conversão Cambial
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Sustentabilidade/Responsabilidade-Ambiental/Pages/Reciclagem-Cartoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Reciclagem de Cartões']); return true;" title="Promover a Economia Circular">
+                Reciclagem de Cartões
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Ajuda/Seguranca/Pages/Recomendacoes-Seguranca-Cartoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Segurança de Cartões']); return true;" title="Conselhos para uma utilização segura do seu cartão.">
+                Segurança de Cartões
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Ajuda/Pages/Glossario-Cartoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Glossário de Cartões']); return true;" title="Glossário de Cartões">
+                Glossário de Cartões
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Cartoes/Parceiros/Pages/parceiros-cartoes-caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Outros parceiros']); return true;" title="SEJA QUAL FOR O CARTÃO, SÓ TEM É QUE SER DA CAIXA.
+Aproveite os descontos, promoções e outros benefícios nos nossos Parceiros.">
+                Outros parceiros
+               </a>
+              </li>
+              <li>
+               <a href="../../Ajuda/Open-Banking/SIBS-API-MARKET/PublishingImages/Direitos-consumidores-previstos-DSP2.pdf" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Cartões', 'Direitos dos consumidores (DSP2)']); return true;" title="Link para o documento sobre os Direitos dos consumidores (DSP2).">
+                Direitos dos consumidores (DSP2)
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-Credito">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Crédito Habitação
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Credito-habitacao-Regime-Geral.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Comprar casa']); return true;" title="Oferta de Crédito Habitação da Caixa para Comprar casa">
+                Comprar casa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Transferencia-Credito-Habitacao.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Transferir Crédito']); return true;" title="Transfira o seu Crédito para a Caixa">
+                Transferir Crédito
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Credito-habitacao-Construcao.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Construir casa']); return true;" title="Construa a sua casa de sonho com a Caixa">
+                Construir casa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Credito-Habitacao-Propria-Obras.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Fazer obras']); return true;" title="Faça obras na sua casa com o apoio da Caixa">
+                Fazer obras
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Investimento-Imobiliario.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Investir em imobiliário']); return true;" title="A solução para investir em estabelecimentos comerciais">
+                Investir em imobiliário
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/credito-habitacao-Geral.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Ver oferta']); return true;" title="Ver toda a Oferta da Caixa de Crédito Imobiliário.">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Crédito Pessoal
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Credito-Pessoal-Expresso-Multifinalidade.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Expresso Multifinalidade']); return true;" title="Crédito Pessoal Expresso Multifinalidade">
+                Expresso Multifinalidade
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Crediformacao-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Formação']); return true;" title="Crédito para financiamento de despesas com educação em Portugal ou no estrangeiro.">
+                Formação
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Credito-Pessoal-Saude-Emergencia.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Saúde']); return true;" title="Crédito Pessoal para fazer face a despesas de saúde inesperadas.">
+                Saúde
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Caixa-Casa-Amiga-do-Ambiente.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Caixa Casa Amiga do Ambiente']); return true;" title="">
+                Caixa Casa Amiga do Ambiente
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Caixaordenado.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Caixaordenado']); return true;" title="">
+                Caixaordenado
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Pages/Credito-Pessoal.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Ver oferta']); return true;" title="Ver toda a Oferta da Caixa de Crédito Pessoal">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Crédito Automóvel
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Credito-Auto-Expresso.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Comprar carro novo ou usado']); return true;" title="Crédito Auto Expresso">
+                Comprar carro novo ou usado
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/credito-auto-eletrico-hibrido.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Comprar carro elétrico ou híbrido']); return true;" title="Comprar carro elétrico ou híbrido">
+                Comprar carro elétrico ou híbrido
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Leasing-Automovel.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Leasing']); return true;" title="Solução de leasing auto para viaturas novas, ligeiras de passageiros e/ou mercadorias.">
+                Leasing
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Renting-Automovel.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Renting']); return true;" title="Solução de Renting da Locarent para viaturas novas com um pacote de serviços associados à sua utilização, com uma renda fixa mensal.">
+                Renting
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Solucao-Caixa-Auto.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Ver oferta']); return true;" title="Ver toda a oferta de soluções para compra de automóvel">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Simuladores
+              </li>
+              <li>
+               <a href="https://simuladorch.cgd.pt/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Crédito Habitação']); return true;" target="_blank" title="Simulador Expresso de Crédito Habitação que permite simular opções de Taxa Variável, Taxa Fixa ou Taxa mista.">
+                Crédito Habitação
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Simulador-Expresso/Pages/Credito-Pessoal-Simulador-Expresso.aspx#!/ExpressoMultifinalidade" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Crédito Pessoal']); return true;" title="Simulador expresso de Crédito pessoal que permite simular os encargos para crédito  formação.">
+                Crédito Pessoal
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Pessoal/Simulador-Expresso/Pages/Credito-Pessoal-Simulador-Expresso.aspx#!/ExpressoAutomovel" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Crédito Automóvel']); return true;" title="Simular crédito automóvel">
+                Crédito Automóvel
+               </a>
+              </li>
+              <li>
+               <a href="https://simuladores.cgd.pt/TurismoResidencial/SDSTR/Pages/personalData.aspx?locale=pt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Live in Portugal ']); return true;" target="_blank" title="Link para o Simulador da oferta de crédito Live in Portugal ">
+                Live in Portugal
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Mais informação
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/ajuda/Pages/Glossario-Credito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Glossário de Crédito']); return true;" title="Glossário de Crédito">
+                Glossário de Crédito
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/HP-Medidas-de-Apoio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Crédito', 'Medidas Legislativas CH']); return true;" title="Medidas Legislativas de apoio a Clientes com Crédito Habitação">
+                Medidas Legislativas CH
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-PoupancaInvestimento">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Depósitos
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Nova-Conta-Poupanca-Programada.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Nova Conta Poupança Programada']); return true;" title="Depósito a prazo simples a 6 meses, renovável automaticamente, mobilizável, com perda de juros sobre o capital mobilizado, e com possibilidade de atribuição de uma remuneração preferencial para clientes com entregas mensais programadas. Subscrição do produto no Caixadirecta online, ou na App Caixadirecta, ou em agência.">
+                Nova Conta Poupança Programada
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Deposito-Especial-APP-3Meses.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Especial APP 3 Meses']); return true;" title="Depósito Especial APP 3 Meses">
+                Depósito Especial APP 3 Meses
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/deposito-Natal-3meses.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Especial Natal 3 Meses']); return true;" title="Depósito Especial Natal 3 Meses">
+                Depósito Especial Natal 3 Meses
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/deposito-Natal-6meses.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Especial Natal 6 Meses']); return true;" title="">
+                Depósito Especial Natal 6 Meses
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/deposito-especial-12meses-nao-mobilizavel.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Depósito Caixa Especial 12 Meses']); return true;" title="Depósito Caixa 12 Meses">
+                Depósito Caixa Especial 12 Meses
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Depositos-a-Prazo-e-Contas-Poupanca.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Ver oferta']); return true;" title="Ver toda a oferta de Depósitos a Prazo e Contas Poupança.">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Investimentos
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Pages/Fundosdeinvestimento.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Fundos de Investimento']); return true;" title="Oferta de Fundos de Investimento Mobiliário.">
+                Fundos de Investimento
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Site/CXA/CGD-Pensoes/Pages/CGD-Pensoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Fundos de Pensões Abertos']); return true;" target="_blank" title="Informação relevante sobre Fundos de Pensões Abertos e apresentação das diferentes opções de investimento.">
+                Fundos de Pensões Abertos
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/particulares/eu-quero/pages/planear-a-reforma.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Soluções Poupança Reforma']); return true;" title="Subscreva um complemento para a reforma durante a sua vida ativa e encare o futuro com mais confiança.">
+                Soluções Poupança Reforma
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Seguros-Financeiros/Pages/Seguros-Financeiros.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Seguros Financeiros']); return true;" title="Seguros Financeiros para investir as suas poupanças.">
+                Seguros Financeiros
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Intermediacao-Financeira/Pages/Bolsa-e-Mercados.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Bolsa e Mercados']); return true;" title="Informação sobre os Serviços de Intermediação Financeira prestados pela Caixa, tipos de operações e vantagens no Caixadirecta, bem como  Literacia financeira.">
+                Bolsa e Mercados
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Informação ao Investidor
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Institucional/Pages/Podcast-Por-Conta-da-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Podcast | Por Conta da Caixa']); return true;" title="Por Conta da Caixa é o podcast que o convidamos a acompanhar mensalmente">
+                Podcast | Por Conta da Caixa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Diretiva-Acionistas.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Eventos Corporativos']); return true;" title="Diretiva dos acionistas: Mapa de eventos corporativos">
+                Eventos Corporativos
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Perfil-de-Investidor.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Perfil de Investidor']); return true;" title="Qual o seu perfil de investidor?">
+                Perfil de Investidor
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Analise-Economia-e-Mercados.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Análise de Mercado']); return true;" title="Análise semanal e mensal de economia e mercados financeiros.">
+                Análise de Mercado
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/Instrumentos-Financeiros_Acoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Instrumentos Financeiros']); return true;" title="Literacia sobre os vários instrumentos financeiros">
+                Instrumentos Financeiros
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Informacao-Investidor/Pages/DMIF.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'DMIF']); return true;" title="Diretiva dos nercados de instrumentos financeiros">
+                DMIF
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Ferramentas
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Aconselhador-de-Poupancas/Pages/Aconselhador-Poupanca.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Aconselhador de Poupanças']); return true;" title="Aconselhador de produtos de poupança em função do perfil definido pelo cliente.">
+                Aconselhador de Poupanças
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Poupanca-Automatica/Pages/Poupanca-Automatica.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Poupança automática']); return true;" title="8 mecanismos para poupar">
+                Poupança automática
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Simulador-FIM-PPR/Pages/Simulador-Fundos-Investimento-Mobiliario-PPR.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Simulador PPR']); return true;" title="Simulador de Fundos Investimento Mobiliário PPR">
+                Simulador PPR
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Carteiras-Investimento/Pages/Carteiras-de-Investimento.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Construção de carteiras']); return true;" title="Como pode distribuir os investimentos de acordo com as suas necessidades e objetivos? Qual a carteira que mais se adequa ao seu perfil? ">
+                Construção de carteiras
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Simulador-Cotacoes/Pages/Simulador-Cotacoes-Fundos-Investimento.aspx#!/Cotacoes" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Poupança e Investimento', 'Simulador de Cotações']); return true;" title="Simulador de Cotações">
+                Simulador de Cotações
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-Imoveis">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Bolsas de Imóveis
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Imoveis/Pages/Oferta-Imobiliario.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Oferta Imóveis']); return true;" title="Informação sobre o apoio especializado da Caixa Imobiliário na procura e aquisição de imóveis do Grupo Caixa e  de Parceiros Caixa.">
+                Oferta Imóveis
+               </a>
+              </li>
+              <li>
+               <a href="http://caixaimobiliario.pt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Caixa Imobiliário']); return true;" target="_blank" title="Oferta de imóveis Caixa Imobiliário">
+                Caixa Imobiliário
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Crédito
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Oportunidades-Imoveis-Caixa-Habitacao-Propria.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Imóveis Caixa']); return true;" title="Financiamentos da Caixa para compra de imóveis CGD">
+                Imóveis Caixa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Site/Live-in-Portugal/Products-and-services/Mortgage-solutions/Pages/Mortgages-Solutions.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Live in Portugal']); return true;" target="_blank" title="Crédito Imobiliário para turismo residencial - Habitação ou investimento.">
+                Live in Portugal
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Condomínios
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Imoveis/Pages/Solucoes-Condominio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Soluções Condomínio']); return true;" title="Soluções para a gestão de condomínios: conta à orde, conta poupança e seguro.">
+                Soluções Condomínio
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Simuladores
+              </li>
+              <li>
+               <a href="https://simuladorch.cgd.pt/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Simulador Crédito Habitação']); return true;" title="Simulador de Crédito Habitação que permite simular opções de Taxa Variável, Taxa Fixa ou Taxa mista.">
+                Simulador Crédito Habitação
+               </a>
+              </li>
+              <li>
+               <a href="https://simuladores.cgd.pt/TurismoResidencial/SDSTR/Pages/personalData.aspx?locale=pt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Imóveis', 'Live in Portugal ']); return true;" target="_blank" title="Link para o Simulador da oferta de crédito Live in Portugal ">
+                Live in Portugal
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-Seguros">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Saúde
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Saude-Multicare.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Seguro de Saúde Multicare']); return true;" title="Seguros de Saúde Multicare 1, 2 e 3">
+                Seguro de Saúde Multicare
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Saude-Oncologico.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multicare Proteção Vital']); return true;" title="Seguro de saúde com cobertura específica de oncologia">
+                Multicare Proteção Vital
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Multicare-Activcare-Dental.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multicare Dental']); return true;" title="Seguro de saúde na área da estomatologia e medicina dentária">
+                Multicare Dental
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Oferta-Multicare-60-Mais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multicare 60+']); return true;" title="Seguro de saúde para melhores cuidados a partir dos 61 anos de idade">
+                Multicare 60+
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Multicare-Seguros-Saude.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Ver oferta']); return true;" title="Oferta de seguros de saúde">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Vida
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/seguro-vida-risco-geracoes.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Vida Risco Gerações']); return true;" title="Uma proteção robusta para toda a família, com coberturas específicas que garantem uma sustentabilidade financeira do agregado familiar, se surgir algum imprevisto.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​">
+                Vida Risco Gerações
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/particulares/seguros/pages/seguro-vida.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Caixa Seguro Vida']); return true;" title="Seguro de Vida com garantia de pagamento do capital seguro associado ao Crédito à Habitação">
+                Caixa Seguro Vida
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/particulares/seguros/pages/protecao-vital65.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Proteção Vital 65+']); return true;" title="Seguro de Vida com contrato de seguro vitalício para pessoas com 65 anos de idade ou mais">
+                Proteção Vital 65+
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Vida22.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Ver oferta']); return true;" title="Oferta de seguros de vida">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Casa
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Fidelidade-Casa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Multirriscos Habit. Fidelidade Casa']); return true;" title="Seguro que protege a casa, a família e salvaguardamos eventuais danos causados a terceiros">
+                Multirriscos Habit. Fidelidade Casa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Casa-Recheio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Casa Pack Recheio']); return true;" title="Proteção contra os principais riscos que envolvem o conteúdo ou recheio da habitação">
+                Casa Pack Recheio
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Condominio.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Caixa Seguro Condominio']); return true;" title="Seguro que protege a totalidade do seu condomínio, todas as frações autónomas e respetivas áreas comuns">
+                Caixa Seguro Condominio
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Habitacao.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Ver oferta']); return true;" title="Oferta de seguros para a casa">
+                <strong>
+                 Ver oferta
+                </strong>
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Outros
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Acidentes-Pessoais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Acidentes Pessoais']); return true;" title="Seguro que protege contra acidentes pessoais relacionados com atividades desportivas e de lazer">
+                Acidentes Pessoais
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Automovel-Liber3G.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Automóvel Liber 3G']); return true;" title="Não deixe que os imprevistos o ultrapassem.">
+                Automóvel Liber 3G
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Fidelidade-Pets.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Saúde Animal Pets']); return true;" title="Seguro de Responsabilidade Civil e de Saúde de Animais de Companhia.">
+                Saúde Animal Pets
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Empregada-Domestica.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Trabalho Doméstico']); return true;" title="Seguro de acidentes de trabalho para trabalho doméstico, obrigatório por lei.">
+                Trabalho Doméstico
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Protecao-Credito.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Proteção ao Crédito Habitação']); return true;" title="Seguros de Proteção ao Crédito Habitação">
+                Proteção ao Crédito Habitação
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="../Seguros/Documents/Politica-Tratamento-Tomadores-Seguros.pdf" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Seguros', 'Política de Tratamento de Seguros']); return true;" title="Política de tratamento dos tomadores de seguros, segurados, beneficiários e terceiros lesados">
+                Política de Tratamento de Seguros
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-AsuaMedida">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               À sua medida
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Residentes-no-Estrangeiro/Pages/Solucoes-RE.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Residentes no estrangeiro']); return true;" title="Oferta exclusiva da Caixa para Residentes no Estrangeiro">
+                Residentes no estrangeiro
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Jovens/Pages/Jovens.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Crianças e Jovens']); return true;" title="Para Crianças e Jovens.">
+                Crianças e Jovens
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Universitarios/Pages/Universitarios-CaixaIU.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Universitários']); return true;" title="Oferta exclusiva da Caixa para Universitários">
+                Universitários
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Jovens/Pages/Jovens-28-30.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Jovens adultos']); return true;" title="Oferta exclusiva da Caixa para Jovens adultos.">
+                Jovens adultos
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Caixazul/Pages/Caixazul.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Serviço Caixa Azul']); return true;" title="Serviço Caixa Azul">
+                Serviço Caixa Azul
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Seniores/Pages/Caixa-Seniores.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Seniores']); return true;" title="">
+                Seniores
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Protocolos
+              </li>
+              <li>
+               <a href="Protocolos-Clientes-Caixa.aspx.html" onclick="_paq.push(['trackEvent', 'Pop Menu', 'À sua Medida', 'Protocolos Caixa Colaborador Empresas']); return true;" title="">
+                Protocolos Caixa Colaborador Empresas
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-bancodigital">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Serviços Digitais
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Caixadirecta/Pages/Caixadirecta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Caixadirecta']); return true;" title="Serviço Caixadirecta. O seu serviço de homebanking sempre consigo, 24h por dia, 7 dias por semana e à distância de um click.">
+                Caixadirecta
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Abertura-conta/Pages/Abertura-conta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Abrir Conta à distância']); return true;" title="Todas as vantagens de ser Cliente Caixa. É simples, rápido e cómodo.
+">
+                Abrir Conta à distância
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Pages/DocumentosDigitais.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Portal de Documentos Digitais']); return true;" title="Poupe o ambiente e adira aos documentos digitais. Saiba todas as opções que lhe disponibilizamos para ter acesso aos seus documentos digitais.">
+                Portal de Documentos Digitais
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Atualizar-dados/Pages/Atualizar-dados-info.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Atualização de dados via Chave Móvel Digital']); return true;" title="Atualize os seus dados pessoais via Chave Móvel Digital">
+                Atualização de dados via Chave Móvel Digital
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Ajuda/Open-Banking/SIBS-API-MARKET/Pages/Open-Banking-SIBS-API-Market.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Open Banking']); return true;" title="Um novo modelo de negócio que surge na sequência da Diretiva Europeia de Serviços de Pagamento (DSP2).">
+                Open Banking
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/banco-digital/Pages/Caixa-no-Metaverso.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'A Caixa no Metaverso']); return true;" title="">
+                A Caixa no Metaverso
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/Contas/Caixadirecta/Pages/Refresh-App-Caixadirecta.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'APP Caixadirecta']); return true;" title="Tudo o que precisa do seu Banco. Agora mais prática, com mais operações e com a segurança de sempre.">
+                APP Caixadirecta
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Redes Sociais
+              </li>
+              <li>
+               <a href="https://www.facebook.com/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Facebook Caixa']); return true;" target="_blank" title="Notícias, passatempos, eventos, e tudo o que nos aproxima. Com esta presença pretendemos simplificar a comunicação entre a Caixa e aqueles que nos visitam.">
+                Facebook Caixa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.linkedin.com/company/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'LinkedIn']); return true;" target="_blank" title="Uma presença com a sigla Caixa. Esta página no Linkedin atua como uma plataforma com informação diferenciadora para uma rede profissional - altamente habilitada e motivada por valores de liderança.">
+                LinkedIn
+               </a>
+              </li>
+              <li>
+               <a href="https://www.instagram.com/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Instagram']); return true;" target="_blank" title="EstamosCá para vos mostrar o outro lado. Sigam-nos e façam parte. ">
+                Instagram
+               </a>
+              </li>
+              <li>
+               <a href="https://www.youtube.com/user/mediacgd" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Youtube Caixa']); return true;" target="_blank" title="A diversidade de atividades realizadas ou apoiadas pela Caixa Geral de Depósitos tem agora uma nova presença nas redes sociais, onde se pretende comunicar de forma simples, direta e útil o melhor que a Caixa tem para oferecer.">
+                Youtube Caixa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.facebook.com/saldopositivo" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Facebook Saldo Positivo']); return true;" target="_blank" title="Programa de Literacia Financeira da Caixa">
+                Facebook Saldo Positivo
+               </a>
+              </li>
+              <li>
+               <a href="https://www.youtube.com/user/saldopositivocgdpt" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Banco Digital', 'Youtube Saldo Positivo']); return true;" title="Portal Youtube do Saldo Positivo">
+                Youtube Saldo Positivo
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+          <div class="drop-menu clearfix hidden js-montracaixa">
+           <div class="wrapper">
+            <a class="close" href="#">
+             Fechar
+            </a>
+            <div class="links clearfix">
+             <ul class="first-block">
+              <li class="title-list">
+               Loja Caixa
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Loja-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Todos os Produtos']); return true;" title="Todos os Produtos">
+                Todos os Produtos
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+               Produtos
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Ouro-Numismatica.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Ouro e Numismática']); return true;" title="Ouro e Numismática">
+                Ouro e Numismática
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/relogios.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Relojoaria']); return true;" title="Relojoaria">
+                Relojoaria
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Joias.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Joias']); return true;" title="Joias">
+                Joias
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Tecnologia-Mobile.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Tecnologia e Mobile']); return true;" title="Tecnologia e Mobile">
+                Tecnologia e Mobile
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Gaming.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Gaming']); return true;" title="Gaming">
+                Gaming
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Casa.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Casa']); return true;" title="Casa">
+                Casa
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Vinhos-Sabores.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Vinhos e Sabores']); return true;" title="Vinhos e Sabores">
+                Vinhos e Sabores
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Mobilidade-Viagens.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Mobilidade e Viagens']); return true;" title="Mobilidade e Viagens">
+                Mobilidade e Viagens
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cgd.pt/Particulares/montra-caixa/Pages/Arte.aspx" onclick="_paq.push(['trackEvent', 'Pop Menu', 'Loja Caixa', 'Arte']); return true;" title="Arte">
+                Arte
+               </a>
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+             <ul>
+              <li class="title-list">
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </header>
+      <section id="page-content">
+       <div id="mainContent" tabindex="-1">
+        <div id="ctl00_PlaceHolderMain_editmodepanel1">
+        </div>
+        <div id="ctl00_SPWebPartManager1_g_fbf23bc1_9c99_4721_80a8_c70464aa698b">
+        </div>
+        <div class="ms-rtestate-field">
+         <div class="desktop">
+          <div class="center-block blue-pale">
+           <figure class="image">
+            <img alt="Protocolos Caixa" src="../PublishingImages/Protocolos-clientes-Caixa/E-ProtocolosCaixa-CGDpt-Esq-1600x360-C.jpg"/>
+           </figure>
+           <div class="block" style="display: none;">
+            <div class="text-center-block">
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="mobile">
+          <div class="center-block blue-pale">
+           <figure class="image">
+            <img alt="Protocolos Caixa" src="../PublishingImages/Protocolos-clientes-Caixa/ProtocolosCaixa-CGDpt-1004x500-C.jpg"/>
+           </figure>
+           <div class="block" style="display: none;">
+            <div class="text-center-block">
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="ms-rtestate-field">
+         <section id="intro">
+          <div class="wrapper">
+           <h2 class="title-center">
+            Protocolo Caixa Colaboradores Empresas
+           </h2>
+           <p class="subtitle-center">
+            A sua empresa tem protocolo com a Caixa? Domicilie o vencimento na Caixa e beneficie das condições  especiais para colaboradores de empresas com Protocolo Caixa Empresas, válidas para novos ou atuais Clientes Caixa.
+            <br/>
+            Conheça as condições que temos para si.
+           </p>
+          </div>
+         </section>
+         <section class="cgd-bgcolor" id="cgd-section">
+          <div class="wrapper">
+           <div class="theme-mdl-one">
+            <div class="col-left-mdl-one">
+             <img alt="Conta Caixa Azul" class="img-border-mdl-one position-absolute-one" src="../PublishingImages/Protocolos-clientes-Caixa/SolucoesCaixazulMultiproduto-720x419.jpg"/>
+            </div>
+            <div class="col-right-mdl-one">
+             <div class="info-destaque-cha">
+              <h4>
+               Solução Multiproduto Conta Caixa Azul
+              </h4>
+              <ul>
+               <li>
+                Conta à ordem;
+               </li>
+               <li>
+                2 cartões de débito;
+               </li>
+               <li>
+                2 cartões de crédito;
+               </li>
+               <li>
+                Transferências on-line SEPA+ ilimitadas;
+               </li>
+               <li>
+                Cotações em tempo real;
+               </li>
+               <li>
+                Seguro de Assistência ao Lar.
+               </li>
+              </ul>
+              <div class="footer-btns">
+               <a class="btn-secondary btn-secondary-sm event_click_know_more" data-buttonlocation="Top" data-productname="Conta Caixa Azul" href="/Particulares/Contas/Pages/Conta-Caixa.aspx">
+                Saber mais
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="main-cards">
+            <div class="wrapper">
+             <h3>
+              Preçário Caixa
+             </h3>
+             <p>
+              Comissão de manutenção de Conta Pacote – Conta Caixa Azul não bonificada: 7,30€ /mês
+              <br/>
+              Comissão de manutenção de Conta Pacote – Conta Caixa Azul bonificada: 5,00€ /mês*
+              <br/>
+              Aos valores indicados acresce Imposto do Selo (4%).
+             </p>
+             <h3>
+              Preçário Protocolo Caixa Colaboradores Empresas
+             </h3>
+             <p>
+              <strong>
+               Oferta das primeiras 12 comissões de manutenção de Conta Pacote – Conta Caixa Azul após adesão ao Protocolo
+              </strong>
+              **
+             </p>
+            </div>
+           </div>
+           <article class="perguntas-frequentes">
+            <div class="wrapper">
+             <div class="container clearfix">
+              <div class="details clearfix">
+               <h2 class="title">
+                Mais vantagens do Protocolo
+               </h2>
+               <div class="col">
+                <h3 class="title-accordion">
+                 <span>
+                  Caixaordenado
+                 </span>
+                </h3>
+                <div class="accordion">
+                 <p>
+                  Acesso ao Caixaordenado, que permite a possibilidade de antecipar até 100% do seu ordenado.
+                 </p>
+                 <p>
+                  <a alt="Caixaordenado" href="/Particulares/Credito/Pessoal/Pages/Caixaordenado.aspx">
+                   Saber mais
+                  </a>
+                 </p>
+                </div>
+                <h3 class="title-accordion">
+                 <span>
+                  Vantagens no Crédito à Habitação
+                 </span>
+                </h3>
+                <div class="accordion">
+                 <ul>
+                  <li>
+                   Isenção da comissão de estudo
+                   <sup>
+                    *
+                   </sup>
+                  </li>
+                  <li>
+                   Isenção da comissão de avaliação de imóveis*
+                  </li>
+                  <li>
+                   Acesso a Campanhas Promocionais
+                  </li>
+                 </ul>
+                 <p style="font-size: 13px;">
+                 </p>
+                 <sup>
+                  (*)
+                 </sup>
+                 Para novas operações de Crédito Habitação
+                 <p>
+                  <a alt="Crédito à Habitação" href="/Particulares/Credito/Habitacao/Pages/credito-habitacao-Geral.aspx">
+                   Saber mais
+                  </a>
+                 </p>
+                </div>
+                <h3 class="title-accordion">
+                 <span>
+                  Apoio à formação
+                 </span>
+                </h3>
+                <div class="accordion">
+                 <p>
+                  Acesso a campanhas de Soluções de Crédito ao Consumo.
+                 </p>
+                 <p>
+                  <a href="/Particulares/Credito/Pessoal/Pages/Credito-Pessoal.aspx">
+                   Saber mais
+                  </a>
+                 </p>
+                </div>
+                <h3 class="title-accordion">
+                 <span>
+                  Gestor dedicado
+                 </span>
+                </h3>
+                <div class="accordion">
+                 <p>
+                  Possibilidade de acesso ao Serviço Caixa Azul com um Gestor dedicado preparado para prestar um serviço de atendimento personalizado.
+                 </p>
+                 <p>
+                  <a href="/Particulares/A-sua-Medida/Caixazul/Pages/Caixazul.aspx">
+                   Saber mais
+                  </a>
+                 </p>
+                </div>
+                <div>
+                 <div>
+                  <div>
+                   <div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </article>
+           <div class="wrapper" style="margin-bottom:40px">
+            <p class="footer-notes-cb">
+             * Para clientes Caixa Azul com utilização dos cartões de débito, crédito e/ou débito diferido associados à conta à ordem na qual se efetuou a adesão à Conta Caixa Azul em compras de valor igual ou superior a 50€/ mês e com uma das seguintes condições: domiciliação de rendimento ou duas ou mais cobranças SEPA-DD efetuadas com sucesso nos últimos três meses.
+             <br/>
+             ** Requer domiciliação de rendimento e utilização dos cartões de débito, crédito e/ou débito diferido associados à conta à ordem na qual se efetuou a adesão à Conta Caixa Azul em compras de valor igual ou superior a 50€/ mês.
+            </p>
+           </div>
+          </div>
+          <div id="ctl00_PlaceHolderMain_editmodepanel2" style="clear: both;">
+          </div>
+          <div id="PopUPdivWebpartZone">
+          </div>
+         </section>
+        </div>
+       </div>
+      </section>
+      <div id="ctl00_SearchCrawlExclusionControl2">
+       <footer class="footer-area hideprint">
+        <div class="area-content clearfix">
+         <div class="wrapper">
+          <dl>
+           <dt>
+            Contas e Cartões
+           </dt>
+           <dd>
+            <ul>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Contas/Pages/Conta-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Conta Caixa']);">
+               Conta Caixa
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Contas/Contas-a-Ordem/Pages/Conta-Servicos-Minimos-Bancarios-Extrato.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Conta SMB - Extrato']);">
+               Conta SMB - Extrato
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Contas/Pages/Mobilidade-Bancaria.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Serviço Mudança de Conta']);">
+               Serviço Mudança de Conta
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Credito/Pages/Cartoes-de-Credito.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Cartões de Crédito']);">
+               Cartões de Crédito
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartoes-de-Debito.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Cartões de débito']);">
+               Cartões de débito
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Cartoes/Cartoes-Pre-pagos/Pages/Cartao-Caixa-Pre-Pago.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Cartões Pré-pagos ']);">
+               Cartões Pré-pagos
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Cartoes/Pages/3D-Secure-Service.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Contas e Cartões', 'Serviço 3D Secure']);">
+               Serviço 3D Secure
+              </a>
+             </li>
+            </ul>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            Crédito
+           </dt>
+           <dd>
+            <ul>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/credito-habitacao-Geral.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Crédito', 'Crédito Habitação']);">
+               Crédito Habitação
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/particulares/credito/pessoal/pages/credito-pessoal.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Crédito', 'Crédito Pessoal']);">
+               Crédito Pessoal
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Credito/Automovel/Pages/Solucao-Caixa-Auto.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Crédito', 'Solução Automóvel']);">
+               Solução Automóvel
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Taxas-de-Juro-Credito-Habitacao.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Crédito', 'Taxas de Juro']);">
+               Taxas de Juro
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/ajuda/Espaco-Cliente/Informacao-util/Pages/Mediador-do-Credito.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Crédito', 'Mediador do Crédito']);">
+               Mediador do Crédito
+              </a>
+             </li>
+             <li>
+              <a href="https://clientebancario.bportugal.pt/pt-pt/material/credito-aos-consumidores-direitos-e-deveres" onclick="_paq.push(['trackEvent', 'Sitemap', 'Crédito', 'Crédito aos Consumidores']);" target="_blank">
+               Crédito aos Consumidores
+              </a>
+             </li>
+            </ul>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            Poupança e Invest.
+           </dt>
+           <dd>
+            <ul>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Depositos-a-Prazo-e-Poupanca/Pages/Depositos-a-Prazo-e-Contas-Poupanca.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Poupança e Invest.', 'Depósitos e Poupanças']);">
+               Depósitos e Poupanças
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Fundos-de-Investimento/Pages/Fundosdeinvestimento.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Poupança e Invest.', 'Fundos de Investimento']);">
+               Fundos de Investimento
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/PPR/Pages/Planos-Poupanca-Reforma.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Poupança e Invest.', 'Planos Poupança Reforma']);">
+               Planos Poupança Reforma
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Poupanca-Investimento/Intermediacao-Financeira/Pages/Servicos-Intermediacao-Financeira.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Poupança e Invest.', 'Bolsa e Mercados']);">
+               Bolsa e Mercados
+              </a>
+             </li>
+            </ul>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            Imóveis
+           </dt>
+           <dd>
+            <ul>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Credito/Habitacao/Pages/Imoveis-Grupo-Caixa.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Imóveis', 'Imóveis Caixa']);">
+               Imóveis Caixa
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Imoveis/Pages/Solucoes-Condominio.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Imóveis', 'Soluções Condomínio']);">
+               Soluções Condomínio
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Site/Live-in-Portugal/Products-and-Services/Mortgage-solutions/Pages/Mortgages-Solutions.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Imóveis', 'Liveinportugal']);" target="_blank">
+               Liveinportugal
+              </a>
+             </li>
+            </ul>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            Seguros
+           </dt>
+           <dd>
+            <ul>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Vida22.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Seguros', 'Seguros Vida']);">
+               Seguros Vida
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Oferta-Seguros-Saude-Multicare.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Seguros', 'Seguros de Saúde']);">
+               Seguros de Saúde
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguro-Automovel.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Seguros', 'Seguro Automóvel']);">
+               Seguro Automóvel
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Acidentes-Pessoais.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Seguros', 'Seguros Ac. Pessoais']);">
+               Seguros Ac. Pessoais
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/Seguros/Pages/Seguros-Habitacao.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'Seguros', 'Seguros Habitação']);">
+               Seguros Habitação
+              </a>
+             </li>
+            </ul>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            À sua medida
+           </dt>
+           <dd>
+            <ul>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Residentes-no-Estrangeiro/Pages/Solucoes-RE.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'À sua medida', 'Residentes no Estrangeiro']);">
+               Residentes no Estrangeiro
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Caixazul/Pages/Caixazul.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'À sua medida', 'Caixa Azul']);">
+               Caixa Azul
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Jovens/Pages/Jovens.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'À sua medida', 'Jovens']);">
+               Jovens
+              </a>
+             </li>
+             <li>
+              <a href="https://www.cgd.pt/Particulares/A-sua-Medida/Universitarios/Pages/Universitarios-CaixaIU.aspx" onclick="_paq.push(['trackEvent', 'Sitemap', 'À sua medida', 'Universitários']);">
+               Universitários
+              </a>
+             </li>
+            </ul>
+           </dd>
+          </dl>
+         </div>
+        </div>
+       </footer>
+      </div>
+     </div>
+     <div id="ctl00_SearchCrawlExclusionControl1">
+      <footer class="footer">
+       <div class="footer-area-first hideprint">
+        <div class="media-geral clearfix">
+         <div class="lettering">
+          <span>
+           <!--&nbsp;-->
+          </span>
+          <span>
+           Caixa. Para todos e para cada um.
+          </span>
+         </div>
+         <div class="nav-content">
+          <div class="main-contacts hideprint">
+           <div class="wrapper">
+            <div class="follow-us">
+             <ul class="rs-icons">
+              <li class="rs-icon">
+               <a class="icon-icon01" href="https://www.facebook.com/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Site Header', 'Facebook']); return true;">
+                <span class="RedeSocial">
+                 Facebook
+                </span>
+               </a>
+              </li>
+              <li class="rs-icon">
+               <a class="icon-icon03" href="http://www.youtube.com/user/mediacgd" onclick="_paq.push(['trackEvent', 'Site Header', 'YouTube']); return true;">
+                <span class="RedeSocial">
+                 YouTube
+                </span>
+               </a>
+              </li>
+              <li class="rs-icon">
+               <a class="icon-icon04" href="https://www.linkedin.com/company/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Site Header', 'LinkedIn']); return true;">
+                <span class="RedeSocial">
+                 Linkedin
+                </span>
+               </a>
+              </li>
+              <li class="rs-icon">
+               <a class="icon-icon06" href="https://www.instagram.com/caixageraldedepositos/" onclick="_paq.push(['trackEvent', 'Site Header', 'Instagram']); return true;">
+                <span class="RedeSocial">
+                 Instagram
+                </span>
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="links-content">
+          <nav class="general-links">
+           <div class="area-content clearfix">
+            <div class="wrapper">
+             <dl>
+              <dt>
+               Links úteis
+              </dt>
+              <dd>
+               <ul>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Pages/Ajuda.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Links úteis', 'Ajuda']);">
+                  Ajuda
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Saldo-Positivo/Pages/Saldo-Positivo.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Links úteis', 'Saldo Positivo']);" target="_blank">
+                  Saldo Positivo
+                 </a>
+                </li>
+                <li>
+                 <a href="https://recrutamento.cgd.pt/" onclick="_paq.push(['trackEvent', 'Site Footer', 'Links úteis', 'Recrutamento']);" target="_blank">
+                  Recrutamento
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/ajuda/Seguranca/Pages/Seguranca-e-Fraude.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Links úteis', 'Segurança']);">
+                  Segurança
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Pages/Privacidade-e-cookies.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Links úteis', 'Privacidade e Cookies']);">
+                  Privacidade e Cookies
+                 </a>
+                </li>
+               </ul>
+              </dd>
+             </dl>
+             <dl>
+              <dt>
+               Rede CGD
+              </dt>
+              <dd>
+               <ul>
+                <li>
+                 <a href="../../Corporativo/Rede-CGD/Pages/Agencias.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Rede CGD', 'Agências']);">
+                  Agências
+                 </a>
+                </li>
+                <li>
+                 <a href="../../Corporativo/Rede-CGD/Pages/Gabinetes.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Rede CGD', 'Gabinetes Caixa Empresas']);">
+                  Gabinetes Caixa Empresas
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/ajuda/Rede-Internacional-CGD/Pages/Europa.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Rede CGD', 'Europa']);">
+                  Europa
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/ajuda/Rede-Internacional-CGD/Pages/Africa.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Rede CGD', 'África']);">
+                  África
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/ajuda/Rede-Internacional-CGD/Pages/America.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Rede CGD', 'América']);">
+                  América
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/ajuda/Rede-Internacional-CGD/Pages/Asia.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Rede CGD', 'Ásia']);">
+                  Ásia
+                 </a>
+                </li>
+               </ul>
+              </dd>
+             </dl>
+             <dl>
+              <dt>
+               Contactos
+              </dt>
+              <dd>
+               <ul>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Contactos/Pages/Contactos.aspx">
+                  217 900 790* (Particulares)
+                  <sup>
+                   1
+                  </sup>
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Contactos/Pages/Contactos.aspx">
+                  217 900 791* (Empresas)
+                  <sup>
+                   2
+                  </sup>
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Contactos/Pages/Contactos.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Contactos', 'Outros contactos']);">
+                  Outros contactos
+                 </a>
+                </li>
+                <li>
+                 <span class="custo-tel">
+                  ___________________
+                  <br/>
+                  * Chamada para Rede Fixa Nacional
+                 </span>
+                </li>
+                <li>
+                 <span class="custo-tel">
+                  <sup>
+                   1
+                  </sup>
+                  24h/dia, 7 dias por semana
+                 </span>
+                </li>
+                <li>
+                 <span class="custo-tel">
+                  <sup>
+                   2
+                  </sup>
+                  8h-22h, 7 dias por semana
+                 </span>
+                </li>
+               </ul>
+              </dd>
+             </dl>
+             <dl class="col-vazio">
+              <dt>
+              </dt>
+              <dd>
+               <ul>
+               </ul>
+              </dd>
+             </dl>
+             <dl>
+              <dt>
+               Informação relevante
+              </dt>
+              <dd>
+               <ul>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Espaco-Cliente/Pages/Contacto-On-line.aspx?op1=-3" onclick="_paq.push(['trackEvent', 'Site Footer', 'Informação relevante', 'Sugestões e Reclamações']);">
+                  Sugestões e Reclamações
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Precario/Pages/Precario.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Informação relevante', 'Preçário']);">
+                  Preçário
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Particulares/Apoio-Incumprimento/Pages/Apoio-ao-incumprimento.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Informação relevante', 'Apoio ao incumprimento']);">
+                  Apoio ao incumprimento
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Espaco-Cliente/Pages/Contacto-On-line.aspx?op1=1" onclick="_paq.push(['trackEvent', 'Site Footer', 'Informação relevante', 'Livro de Reclamações']);">
+                  Livro de Reclamações
+                 </a>
+                </li>
+                <li>
+                 <a href="../Contas/Contas-a-Ordem/Documents/Glossario-Servicos-de-Pagamento.pdf" onclick="_paq.push(['trackEvent', 'Site Footer', 'Informação relevante', 'Glossário']);" target="_blank">
+                  Glossário
+                 </a>
+                </li>
+                <li>
+                 <a href="https://www.cgd.pt/Ajuda/Pages/Aviso-legal.aspx" onclick="_paq.push(['trackEvent', 'Site Footer', 'Informação relevante', 'Aviso Legal']);">
+                  Aviso Legal
+                 </a>
+                </li>
+               </ul>
+              </dd>
+             </dl>
+            </div>
+           </div>
+          </nav>
+         </div>
+        </div>
+        <div class="media-wrap">
+        </div>
+       </div>
+       <div class="footer-area-second">
+        <div class="disclaimer">
+         <hr class="hrhide"/>
+         <p>
+          A CGD está registada junto do Banco de Portugal sob o n.º 35, da CMVM sob o n.º 125 e da ASF sob o nº 419501357.
+          <br/>
+          2024 © Caixa Geral de Depósitos, SA. Todos os direitos reservados.
+          <a href="/ajuda/Seguranca/Condicoes-Utilizacao/Pages/Condicoes-Utilizacao.aspx">
+           Condições de utilização
+          </a>
+         </p>
+        </div>
+       </div>
+      </footer>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div style="display: none;">
+  </div>
+  <div class="hideprint" id="backgroundPopup">
+  </div>
+  <script type="application/ld+json">
+   {"@context": "http://schema.org/","@type": "Organization","url": "https://www.cgd.pt/","logo": "https://www.cgd.pt/PublishingImages/CGD_logo.jpg"}
+  </script>
+  <script src="../../_layouts/15/CaixatecCGDLayoutsV2/js/base.m.c.min.js?v=20240521">
+  </script>
+  <div class="aspNetHidden">
+  </div>
+  <script src="../../PublishingImages/WSImages/Novo-CGD/cgdpt_o.js?v=1010241141" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{1f2b3493-9a04-46c5-a558-d63101f13fbe}",itemId: 2942,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fParticulares\u002fPages",itemPermissions:{High:16,Low:196673}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';var g_clientIdDeltaPlaceHolderMain = "ctl00_DeltaPlaceHolderMain";
+//]]>
+  </script>
+  <!-- DOC END -->
+ </body>
+</html>
+<!-- Rendered using cache profile:CGD.PT - Vary by Query String  at: 2024-11-20T06:32:53 -->

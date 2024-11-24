@@ -1,0 +1,45 @@
+﻿/* OVERRIDE */
+#page-content .highlight-cards .list ul li .header {
+    min-height: 20px !important;
+}
+
+#boxsou, #boxquero {
+    background-color: #fff;
+    border-bottom: 0px !important;
+}
+
+
+
+.highlight-cards .list ul li .image img {
+    width: 100% !important;
+}
+
+@media (max-width:450px) {
+    .highlight-cards .list ul{
+    width:100%;
+    }
+    .highlight-cards .container{
+    margin:0;
+    }
+    .highlight-cards .list{
+    margin:0;
+    width:100%
+    }
+    .highlight-cards .list ul li{
+        display: inline-table;
+        max-width: initial;
+        width: 100%;
+        text-align: left;
+        padding: 0 16px 0 16px;
+        margin:0;
+    }
+    }
+
+@media only screen and (max-width: 1004px) {
+
+.section {
+    height: auto;
+}
+
+
+}

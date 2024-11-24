@@ -1,0 +1,508 @@
+﻿#Universitarios {
+    padding: 40px 16px 0px;
+}
+
+
+.wrapper2 {
+    max-width: 1002px;
+    margin: 0 auto;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+h2.title-center {
+    font-family: 'Spartan';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #00559A;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.subtitle-center {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.6em;
+    color: #3F5B78;
+}
+
+
+section#intro {
+    margin: 60px 20px 20px;
+    padding: 15px;
+}
+
+
+
+.card-header {
+    padding: 10px 0;
+    background-color:#F2F4F8;
+}
+
+.card-header h3 {
+    color: #0A243E;
+    font: 700 16px 'Spartan';
+    line-height: 29px;
+}
+
+.card-body {
+    margin: 20px 0;
+    padding: 10px;
+    height: 100px;
+}
+
+.card-body h5 {
+    /* width: 260px; */
+    color: #00559A;
+    font: 600 15px 'Spartan';
+    /* border-bottom: 2px solid #6EB5FF; */
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+#cgd-section {
+    margin: 20px 0 20px;
+    padding: 15px;
+    width: 100%;
+    float: left;
+}
+
+.col-left-mdl-one {
+    width: 50%;
+}
+.col-right-mdl-one {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.info-destaque-cha {
+    padding-left: 40px;
+}
+.info-destaque-cha h4 {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    color: var(--secondary-dark-blue);
+}
+
+.info-destaque-cha p {
+    font-family: 'Spartan';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: var(--primary-indigo-blue);
+    margin: 10px 0;
+}
+.info-destaque-cha ul {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.info-destaque-cha li {
+    list-style-image: url(/Particulares/Credito/Habitacao/PublishingImages/CH-Aquisicao/img/check.svg);
+    line-height: 1.4em;
+    margin-bottom: 7px;
+    padding-left: 5px;
+}
+p.txt {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color:#3F5B78;
+}
+
+.footer-btns {
+    display: flex;
+    gap:25px;
+}
+
+
+a.btn-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0071ce;
+    border: 1px solid #0071ce;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+a.btn-secondary:hover {
+    background: #F2F4F8;
+    border: 1px solid #00559a;
+    color: #00559a;
+}
+
+a.btn-secondary-sm {
+    width: 150px;
+    height: 43px;
+    margin-top:34px;
+}
+
+
+
+
+
+
+.sgnfCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.sgnfCard {
+    width: 42%;
+    min-width: 360px;
+    padding: 25px;
+    margin-bottom: 5%;
+    border: 1px solid;
+    border-color: #c9d5e7;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sgnfCard p {
+    font-family: 'ROBOTO';
+    font-size: 15px;
+    color: #3F5B78;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+.sgnfCards .sgnfCard H3 {
+    color: #0A243E;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 0px 0 4px 0;
+    line-height: 26px;
+    font-family: 'Roboto';
+    margin: 0 0 0 20px;
+}
+
+
+
+article.perguntas-frequentes {
+    margin-bottom: 70px;
+}#Universitarios {
+    padding: 40px 16px 0px;
+}
+
+
+.wrapper2 {
+    max-width: 1002px;
+    margin: 0 auto;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+h2.title-center {
+    font-family: 'Spartan';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #00559A;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.subtitle-center {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.6em;
+    color: #3F5B78;
+}
+
+
+section#intro {
+    margin: 60px 20px 20px;
+    padding: 15px;
+}
+
+.main-cards {
+    margin: 30px 0 70px;
+    padding: 10px;
+}
+.container-card {
+    width: 100%;
+    width: 410px;
+    border-radius: 8px;
+    text-align: center;
+    border:1px solid #C9D5E7;
+    overflow:hidden
+}
+.card-header {
+    padding: 10px 0;
+    background-color:#F2F4F8;
+}
+
+.card-header h3 {
+    color: #0A243E;
+    font: 700 16px 'Spartan';
+    line-height: 29px;
+}
+
+.card-body {
+    margin: 20px 0;
+    padding: 10px;
+    height: 100px;
+    /* width: 280px; */
+}
+
+.card-body h5 {
+    /* width: 260px; */
+    color: #00559A;
+    font: 600 15px 'Spartan';
+    /* border-bottom: 2px solid #6EB5FF; */
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+#cgd-section {
+    margin: 20px 0 20px;
+    padding: 15px;
+    width: 100%;
+    float: left;
+}
+.theme-mdl-one {
+    margin: 20px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 400px; */
+}
+.col-left-mdl-one {
+    width: 50%;
+}
+.col-right-mdl-one {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.info-destaque-cha {
+    padding-left: 40px;
+}
+.info-destaque-cha h4 {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    color: var(--secondary-dark-blue);
+}
+
+.info-destaque-cha p {
+    font-family: 'Spartan';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: var(--primary-indigo-blue);
+    margin: 10px 0;
+}
+.info-destaque-cha ul {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 35px 0 20px;
+    padding-left: 20px;
+}
+
+.info-destaque-cha li {
+    list-style-image: url(/Particulares/Credito/Habitacao/PublishingImages/CH-Aquisicao/img/check.svg);
+    line-height: 1.4em;
+    margin-bottom: 7px;
+    padding-left: 5px;
+}
+p.txt {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color:#3F5B78;
+}
+
+.footer-btns {
+    display: flex;
+    gap:25px;
+}
+
+
+a.btn-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0071ce;
+    border: 1px solid #0071ce;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+a.btn-secondary:hover {
+    background: #F2F4F8;
+    border: 1px solid #00559a;
+    color: #00559a;
+}
+
+a.btn-secondary-sm {
+    width: 150px;
+    height: 43px;
+    margin-top:34px;
+}
+
+
+
+
+
+
+.sgnfCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.sgnfCard {
+    width: 42%;
+    min-width: 360px;
+    padding: 25px;
+    margin-bottom: 5%;
+    border: 1px solid;
+    border-color: #c9d5e7;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* height: 200px; */
+}
+
+.sgnfCard p {
+    font-family: 'ROBOTO';
+    font-size: 15px;
+    color: #3F5B78;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+.sgnfCards .sgnfCard H3 {
+    color: #0A243E;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 0px 0 4px 0;
+    line-height: 26px;
+    font-family: 'Roboto';
+    margin: 0 0 0 20px;
+}
+p.footer-notes-cb {
+    color: #3F5B78;
+    font: 400 14px 'Roboto';
+    line-height: 1.4em;
+    margin-top: 16px;
+}
+
+
+
+article.perguntas-frequentes {
+    margin-bottom: 70px;
+}
+
+span.icon-Agency, span.icon-Savings, span.icon-Medicine {
+     font-size: 39px;
+     color: #9DB1C9;
+     display: flex;
+     align-items: flex-end;
+}
+
+
+@media screen and (max-width: 800px){
+.theme-mdl-one {
+        height: auto;
+    }
+ .col-left-mdl-one {
+        width: 100%;
+        /* margin: auto; */
+        padding: 15px;
+        text-align: center;
+    }
+
+  .col-right-mdl-one {
+        width: 100%;
+        margin: 20px 10px 0;
+    }
+
+.info-destaque-cha {
+        padding: 15px;
+    }
+  
+
+#cgd-section {margin: 10px auto;padding: 0;float: none !important;}
+
+
+
+
+
+    
+}
+
+h3.title-accordion span {
+    font-weight: bold;
+}
+
+.main-cards h3 {
+     font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 34px;
+    color: var(--secondary-dark-blue);
+}
+
+.main-cards p {
+    font-size: 15px;
+    line-height: 1.4em;
+    margin: 0 0 20px;
+}

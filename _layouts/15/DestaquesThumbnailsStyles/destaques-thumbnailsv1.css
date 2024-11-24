@@ -1,0 +1,51 @@
+/* IMAGE */
+.image-icon { margin-bottom: 20px; }
+.list li .image-icon.image-hover { display: none; }
+.list li:hover .image-icon.image-main { display: none; }
+.list li:hover .image-icon.image-hover { display: block;}
+
+/*ICONS*/
+
+.icons-background-blue { background: #F2F4F8 none repeat scroll 0% 0%; }
+.icons-background-white { background: #FFFFFF none repeat scroll 0% 0%; }
+
+/*LIST ICONS*/
+.list-icons { padding-bottom: 60px;}
+.list-icons .subtitle {font-size: 1.6em; color: #A6B6CE;padding: 40px 0px 40px 40px;font-weight: 400;}
+.list-icons .lead {font-size: 2em;color: #0A243E;padding: 10px 0 40px 40px;font-weight: 400;width: auto;}
+.list-icons .list {text-align: center;margin: 0 auto;max-width: 970px;padding-bottom: 20px;}
+.list-icons .list li {width: 196px;display: inline-block;margin: 30px 20px;position: relative;vertical-align: text-top;height: 215px;}
+.list-icons .list li:hover, .list-icons .list li:focus { color: #0A243E;}
+.list-icons .list li a:hover, .list-icons .list li a:focus {color: #0A243E;}
+.list-icons .list li a {display: block; color: #a6b6ce;font-size: 2.4em;position: relative;width: 100%;height: 210px;padding-bottom: 36px;margin: 20px 0 0 0;}
+.list-icons .list li a:after {  content: "\e611";font-family: 'icomoon';padding-top: .5em;font-size: 1.45em;font-size: 33px \9 !important;display: block;position: absolute;bottom: -20px;left: 50%;margin-left: -20px;color: #a6b6ce;}
+.list-icons .list li a:hover:after, .list-icons .list li a:focus:after {color: #0A243E;}
+.list-icons .list li strong {font-size: 3em;text-align: center;display: block;margin-bottom: 20px;}
+.list-icons .list li .icomoon-icon {text-align: center;display: block;margin-bottom: 20px;}
+.list-icons .list li:hover strong, .list-icons .list li:focus strong {color: #0A243E;}
+
+/* LIST SIMULATION BLOCK */
+
+.list-want {margin-bottom: 60px}
+.list-simulation .subtitle
+.list-simulation .lead {font-size: 2em;color: #00559a;padding: 10px 0 40px 40px;font-weight: 400;width: auto;}
+.list-simulation .list {text-align: center;margin: 0 auto;max-width: 970px;padding-bottom: 20px;}
+.list-simulation .list li {width: 196px;display: inline-block;margin: 30px 20px;position: relative;vertical-align: text-top;height: 215px;}
+.list-simulation .list li:hover, .list-simulation .list li:focus {color: #0071ce;}
+.list-simulation .list li a:hover, .list-simulation .list li a:focus {color: #0071ce;}
+.list-simulation .list li strong {font-size: 3em;text-align: center;display: block;margin-bottom: 20px;}
+.list-simulation .list li .icomoon-icon {text-align: center;display: block;margin-bottom: 20px;}
+.list-simulation .list li:hover strong, .list-simulation .list li:focus strong {color: #0071ce;}
+.list-simulation {padding-bottom: 0px;border-top: 1px solid #C9D5E7;}
+.list-want {padding-bottom: 60px;background: #f2f4f8;clear: both;}
+.list-want .subtitle, .list-simulation .subtitle {font-size: 23px; font-weight:700; font-family: 'Spartan'; color:#00559a}
+.list-simulation .list, .list-want .list {margin: 0 auto;max-width: 970px;text-align: center;}
+.list-simulation .list li, .list-want .list li {width: 164px;display: inline-block;margin: 20px;position: relative;vertical-align: text-top;height: 140px;}
+.list-simulation .list li a, .list-want .list li a {display: block;color: #0071ce;font-size: 15px;position: relative;width: 100%;height: 210px;padding-bottom: 36px;margin: 20px 0 0 0;text-align: center;font-family: 'Spartan';font-weight: 600;line-height: 18px;text-decoration: none;}
+.list-want .list li a:hover, .list-want .list li a:focus { color: #0071ce;}
+.list-want .list li a strong { font-size: 3em;  text-align: center;  display: block;  margin-bottom: 20px;}
+.list-want .list li a .icomoon-icon {text-align: center;display: block;margin-bottom: 20px;}
+.list-want .list li a strong:hover:before, .list-want .list li a strong:focus:before {color: #0071ce;}
+.list-want .list .list li:hover strong, .list-want .list .list li:focus strong {color: #0071ce;}
+.list-want .list li:hover {background-color:#fff; border-radius: 8px}
+.list-simulation .list li:hover {background-color:#f2f4f8; border-radius: 8px}

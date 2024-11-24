@@ -1,0 +1,19 @@
+﻿.main .articles-3col .list ul li {
+	border: 1px solid #c9d5e7;
+	min-height: 300px;
+	width: 300px;
+}
+.main .articles-3col .list ul li .image{
+	display:none;
+}
+.date {
+    font-size: 12px;
+    color: #00559a;
+    margin-bottom:15px !important;
+    font-family: 'Roboto';
+    position: relative;
+    top: -33px;
+    margin-left: 35px;
+    left: -20px;
+    font-weight: 600;
+}

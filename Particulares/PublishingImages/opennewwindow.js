@@ -1,0 +1,1 @@
+$( '.highlight-cards a[href^="https://youtu.be/AGl0ICOB3B4"]' ).attr( 'target','_blank' )
